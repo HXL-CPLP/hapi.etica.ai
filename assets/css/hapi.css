@@ -1,0 +1,62 @@
+/**
+ * @ARCHĪVUM       _assets/css/hapi.css
+ * @LICENTIAM      Dominium publicum
+ * @DĒSCRĪPTIŌNEM  _[por] Arquivo de CSS carregado em todo site ao final
+ *                        de cada página
+ *                 [por]_
+ */
+
+/* _[eng-Latn] API layout; Hide some strange SVG not loading [eng-Latn]_ */
+.swagger-ui>div>svg {
+  display: none;
+}
+/* _[eng-Latn] API layout; max-width dont work, need for force width [eng-Latn]_  */
+.swagger-ui .servers>label select {
+  width: 100%;
+}
+
+.incognitum-phrasim:after, .incognitum-phrasim:before {
+  content: attr(lang);
+  color:mediumseagreen;
+  font-style: italic;
+  vertical-align: sub;
+}
+
+.peritum-est, .peritum-est--block, .peritum-est--inline, .peritum-est--inline-block, .peritum-est--list-item {
+  display: none;
+}
+.peritum-modum-est main {
+  padding-bottom: 60px;
+}
+.peritum-modum-est .peritum-est, .peritum-modum-est .peritum-est--block {
+  display: block;
+}
+.peritum-modum-est .peritum-est--inline {
+  display: inline;
+}
+.peritum-modum-est .peritum-est--inline-block {
+  display: inline-block;
+}
+.peritum-modum-est .peritum-est--list-item {
+  display: list-item;
+}
+
+/* The Police Line Do Not Cross Color Scheme palette has 2 colors which are
+ Rich Black [FOGRA39] (#040300) and Cyber Yellow (#F9D502).
+ https://www.schemecolor.com/police-line-do-not-cross-yellow-black-colors.php
+ https://stripesgenerator.com/
+
+ #040300 (black)
+ f9d502 (yellow)
+ */
+.paginam-experimentum-gradient {
+  background-image: linear-gradient(90deg, #040300 25%, #f9d502 25%, #f9d502 50%, #040300 50%, #040300 75%, #f9d502 75%, #f9d502 100%);
+  background-size: 40px 40px;
+  height: 8px;
+}
+.paginam-experimentum-textum {
+  background-color: #f9d502;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

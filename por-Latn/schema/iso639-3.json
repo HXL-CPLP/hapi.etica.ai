@@ -1,0 +1,77 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://hapi.etica.ai/por-Latn/schema/iso639-3.json",
+    "title": "<span >ISO 639-3</span>",
+    "description": "<span >Códigos para a representação de nomes de idiomas – Parte 3: códigos Alpha-3 para cobertura abrangente de idiomas</span>",
+    "$comment": "See https://iso639-3.sil.org/code_tables/download_tables \n https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3.tab \n https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso639-3_table_definition.txt",
+    "type": "object",
+    "required": [
+        "Id",
+        "Scope",
+        "Type",
+        "Ref_Name"
+    ],
+    "properties": {
+        "Id": {
+            "description": "<span >O identificador ISO 639-3 de três letras</span>",
+            "type": "string",
+            "length": 3,
+            "example": "<span >por</span>"
+        },
+        "Part2B": {
+            "description": "<span >Identificador equivalente ISO 639-2 do conjunto de códigos de aplicativos bibliográficos, se houver</span>",
+            "type": "string",
+            "length": 3,
+            "example": "<span >por</span>"
+        },
+        "Part2T": {
+            "description": "<span >Identificador equivalente ISO 639-2 do conjunto de códigos de aplicativos de terminologia, se houver um</span>",
+            "type": "string",
+            "length": 3,
+            "example": "<span >por</span>"
+        },
+        "Part1": {
+            "description": "<span >Identificador ISO 639-1 equivalente, se houver</span>",
+            "type": "string",
+            "length": 2,
+            "example": "<span >pt</span>"
+        },
+        "Scope": {
+            "description": "<span >I: Individual; M: Macrolíngua; S: Especial</span>",
+            "type": "string",
+            "length": 1,
+            "enum": [
+                "I",
+                "M",
+                "S"
+            ],
+            "example": "<span >I</span>"
+        },
+        "Type": {
+            "description": "<span >A: Antiga; C: Construída (língua artificial, planejada); E: Extinta; L: Língua viva; S: Especial</span>",
+            "type": "string",
+            "length": 1,
+            "enum": [
+                "A",
+                "C",
+                "E",
+                "H",
+                "L",
+                "S"
+            ],
+            "example": "<span >L</span>"
+        },
+        "Ref_Name": {
+            "description": "<span >Nome no idioma de referência (provavelmente língua inglesa ou língua francesa e no sistema de escrita alfabeto latino)</span>",
+            "type": "string",
+            "maxLengh": 150
+        },
+        "Comment": {
+            "description": "<span >Nome no idioma de referência (provavelmente língua inglesa ou língua francesa e no sistema de escrita alfabeto latino)</span>",
+            "type": "string",
+            "maxLengh": 150,
+            "example": "<span >Portuguese</span>"
+        }
+    }
+}
+

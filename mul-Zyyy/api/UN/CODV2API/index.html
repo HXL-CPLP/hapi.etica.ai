@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="mul" dir="ltr" translate="yes">
+<!--
+  TODO: _[eng] The dir="ltr" on defallo-mul-Zyyy should ideally be somewhat
+               dynamically based on the user browser. Or at least allow user
+               select both site directionality and language so all strings
+               are loaded based on user preferences.
+               This definitely would need some help of web developers from other
+               world regions than western ones
+               (Emerson Rocha, 2021-06-08 07:30 UTC)
+        [eng]_
+        _[lat] GitHub pittacium '✏<-✏':
+               https://github.com/HXL-CPLP/Auxilium-Humanitarium-API/labels/✏<-✏
+               Adjuva nos 🥺 
+        [lat]_
+-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Alternātīvum pāginam: COD Services: Common Operational Datasets Services 2 | hapi.etica.ai</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Alternātīvum pāginam: COD Services: Common Operational Datasets Services 2" />
+<meta property="og:locale" content="mul" />
+<meta name="description" content="Auxilium Humanitarium API documentōrum" />
+<meta property="og:description" content="Auxilium Humanitarium API documentōrum" />
+<link rel="canonical" href="https://hapi.etica.ai/mul-Zyyy/api/UN/CODV2API/" />
+<meta property="og:url" content="https://hapi.etica.ai/mul-Zyyy/api/UN/CODV2API/" />
+<meta property="og:site_name" content="hapi.etica.ai" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Alternātīvum pāginam: COD Services: Common Operational Datasets Services 2" />
+<meta name="twitter:site" content="@EticaAI" />
+<script type="application/ld+json">
+{"url":"https://hapi.etica.ai/mul-Zyyy/api/UN/CODV2API/","description":"Auxilium Humanitarium API documentōrum","@type":"WebPage","headline":"Alternātīvum pāginam: COD Services: Common Operational Datasets Services 2","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!--
+    _[por-Latn] Bootstrap CSS; Sobre RTL / LTR,
+                @see https://getbootstrap.com/docs/5.0/getting-started/rtl/
+    [por-Latn]_
+  -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/assets/css/hapi.css?1636016554">
+
+  
+
+  
+  <link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist@3.49.0/swagger-ui.css"
+  integrity="sha384-cV2XOZCR++vwjNcnG56raZiJn/a7fw78X9BkQ8S4Rgj5BAI1XfOvAMbRm9KmARdg"
+  crossorigin="anonymous">
+  
+
+</head>
+<body class="paginam-typum-api paginam-linguam-mul-Zyyy">
+  <!-- _[por-Latn] Considerar adicionar tradução no texto de skip to main
+                   bem como adicionar potencialmente mais pontos de skip.
+                   @see https://webaim.org/techniques/skipnav/
+                   @see https://getbootstrap.com/docs/5.0/getting-started/accessibility/
+       [por-Latn]_
+  -->
+  <a class="visually-hidden-focusable"
+    href="#main-titulum">
+    Skip to main content
+  </a><!-- _includes/caput.html -->
+<!-- Trivia: 'caput', https://en.wiktionary.org/wiki/caput#Latin -->
+
+
+
+<header class="site-header">
+  <nav aria-label="Main navbar of site"
+    class="navbar navbar-expand-lg navbar-light"
+    style="background-color: #e3f2fd;">
+    <div class="container"><a class="navbar-brand" href="/">
+          <span class='incognitum-phrasim'>Hapi</span>
+        </a><button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#caput-navigationem"
+        aria-controls="caput-navigationem" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="caput-navigationem">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+          
+            
+            <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown" aria-expanded="false" 
+                  id="navigationem-descendens-0" href="#">
+                  
+                    <span class='incognitum-phrasim'>🇺🇳UN🇺🇳</span>
+                  
+                </a>
+
+                <ul class="dropdown-menu"
+                  aria-labelledby="navigationem-descendens-0">
+                  
+                      <!-- _[lat-Latn] Non /L10N_ego_codicem/api/UN/humanitarian-data-exchange/; xdefallo est! [lat-Latn]_ -->
+                          <li>
+                            <a class="dropdown-item"
+                              href="https://hapi.etica.ai/mul-Zyyy/api/UN/HDX/">/mul-Zyyy/api/UN/HDX/
+                                <!--<span class='incognitum-phrasim'>HDX - Intercâmbio de Dados Humanitários</span>--></a>
+                          </li>
+                      <!-- _[lat-Latn] Non /L10N_ego_codicem/api/UN/Hapi_api_UN_reliefweb_slug/; xdefallo est! [lat-Latn]_ -->
+                          <li>
+                            <a class="dropdown-item"
+                              href="https://hapi.etica.ai/mul-Zyyy/api/UN/reliefweb/">/mul-Zyyy/api/UN/reliefweb/
+                                <!--<span class='incognitum-phrasim'>ReliefWeb - Informando humanitários em todo o mundo</span>--></a>
+                          </li>
+                      <!-- _[lat-Latn] Non /L10N_ego_codicem/api/UN/Hapi_api_UN_CODV2API_slug/; xdefallo est! [lat-Latn]_ -->
+                          <li>
+                            <a class="dropdown-item"
+                              href="https://hapi.etica.ai/mul-Zyyy/api/UN/CODV2API/">/mul-Zyyy/api/UN/CODV2API/
+                                <!--<span class='incognitum-phrasim'>COD API versão 2</span>--></a>
+                          </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link disabled" tabindex="-1"
+                          aria-disabled="true" href="#">
+                          <span lang="en" dir="ltr">UNSD SDG API</span>
+                        </a>
+                      </li>
+                      
+                        <li role="separator" class="dropdown-divider"></li>
+                      
+                      <!-- _[lat-Latn] Non /L10N_ego_codicem/Hapi_schemam_slug/UN/UN_codicem_anglicum_IOM_HTCDS_slug/; xdefallo est! [lat-Latn]_ -->
+                          <li>
+                            <a class="dropdown-item"
+                              href="https://hapi.etica.ai/mul-Zyyy/schemam/UN/HTCDS/">/mul-Zyyy/schemam/UN/HTCDS/
+                                <!--<span class='incognitum-phrasim'>PDCTH: O Padrão de Dados de Casos de Tráfico Humano</span>--></a>
+                          </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link disabled" tabindex="-1"
+                          aria-disabled="true" href="#">
+                          <span lang="en" dir="ltr">UN M49</span>
+                        </a>
+                      </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link disabled" tabindex="-1"
+                          aria-disabled="true" href="#">
+                          <span lang="en" dir="ltr">UN P</span>
+                        </a>
+                      </li></ul>
+                </li>
+            
+            <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown" aria-expanded="false" 
+                  id="navigationem-descendens-1" href="#">
+                  
+                    <span class='incognitum-phrasim'>🌐001🌐</span>
+                  
+                </a>
+
+                <ul class="dropdown-menu"
+                  aria-labelledby="navigationem-descendens-1">
+                  
+                      <!-- _[lat-Latn] Non /L10N_ego_codicem/api/XZ/Hapi_api_XZ_HXL-Proxy_slug/; xdefallo est! [lat-Latn]_ -->
+                          <li>
+                            <a class="dropdown-item"
+                              href="https://hapi.etica.ai/mul-Zyyy/api/XZ/HXL-Proxy/">/mul-Zyyy/api/XZ/HXL-Proxy/
+                                <!--<span class='incognitum-phrasim'>HXL-Proxy - Proxy da Linguagem de Intercâmbio Humanitária</span>--></a>
+                          </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link disabled" tabindex="-1"
+                          aria-disabled="true" href="#">
+                          <span lang="en" dir="ltr">Worldbank</span>
+                        </a>
+                      </li>
+                      
+                        <li role="separator" class="dropdown-divider"></li>
+                      
+                      <!-- _[lat-Latn] Non /L10N_ego_codicem/Hapi_schemam_slug/XZ/ISO_639-3_slug/; xdefallo est! [lat-Latn]_ -->
+                          <li>
+                            <a class="dropdown-item"
+                              href="https://hapi.etica.ai/mul-Zyyy/schemam/XZ/ISO-639-3/">/mul-Zyyy/schemam/XZ/ISO-639-3/
+                                <!--<span class='incognitum-phrasim'>ISO 639-3</span>--></a>
+                          </li>
+                      <!-- _[lat-Latn] Non /L10N_ego_codicem/Hapi_schemam_slug/XZ/ISO_15924_slug/; xdefallo est! [lat-Latn]_ -->
+                          <li>
+                            <a class="dropdown-item"
+                              href="https://hapi.etica.ai/mul-Zyyy/schemam/XZ/ISO-15924/">/mul-Zyyy/schemam/XZ/ISO-15924/
+                                <!--<span class='incognitum-phrasim'>ISO 15924</span>--></a>
+                          </li></ul>
+                </li>
+            
+            <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown" aria-expanded="false" 
+                  id="navigationem-descendens-2" href="#">
+                  
+                    <span class='incognitum-phrasim'>🇧🇷076🇧🇷</span>
+                  
+                </a>
+
+                <ul class="dropdown-menu"
+                  aria-labelledby="navigationem-descendens-2">
+                  
+                      <!-- _[lat-Latn] Non /L10N_ego_codicem/api/BR/Hapi_api_BR_portais-ckan-brasil_slug/; xdefallo est! [lat-Latn]_ -->
+                          <li>
+                            <a class="dropdown-item"
+                              href="https://hapi.etica.ai/mul-Zyyy/api/BR/portais-ckan-brasil/">/mul-Zyyy/api/BR/portais-ckan-brasil/
+                                <!--<span class='incognitum-phrasim'>Portais CKAN de dados abertos no Brasil</span>--></a>
+                          </li>
+                      <!-- _[lat-Latn] Non /L10N_ego_codicem/api/BR/Hapi_api_BR_portais-arcgis-brasil_slug/; xdefallo est! [lat-Latn]_ -->
+                          <li>
+                            <a class="dropdown-item"
+                              href="https://hapi.etica.ai/mul-Zyyy/api/BR/portais-arcgis-brasil/">/mul-Zyyy/api/BR/portais-arcgis-brasil/
+                                <!--<span class='incognitum-phrasim'>Portais ArcGIS de dados abertos do Brasil</span>--></a>
+                          </li>
+                      
+                        <li role="separator" class="dropdown-divider"></li>
+                      
+                      
+                      <li class="nav-item">
+                        <a class="nav-link disabled" tabindex="-1"
+                          aria-disabled="true" href="#">
+                          <span lang="en" dir="ltr">IBGE</span>
+                        </a>
+                      </li></ul>
+                </li>
+            
+            <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown" aria-expanded="false" 
+                  id="navigationem-descendens-3" href="#">
+                  
+                    <abbr title="Trānslātiōnem memoriam">💾🗣️💭 <!-- TODO: RtL --></abbr>
+                  
+                </a>
+
+                <ul class="dropdown-menu"
+                  aria-labelledby="navigationem-descendens-3">
+                  
+                      <li>
+                            <a class="dropdown-item"
+                              href="https://hapi.etica.ai/mul-Zyyy/tm/XZ/hapi-miniman/">
+                              
+                                <span class='incognitum-phrasim'>Trānslātiōnem memoriam</span> : hapi-miniman.tm.hxl
+                              
+                            </a>
+                          </li>
+                      <li>
+                            <a class="dropdown-item"
+                              href="https://hapi.etica.ai/mul-Zyyy/tm/XZ/hapi-api/">
+                              
+                                <span class='incognitum-phrasim'>Trānslātiōnem memoriam</span> : hapi-api.tm.hxl
+                              
+                            </a>
+                          </li>
+                      <li>
+                            <a class="dropdown-item"
+                              href="https://hapi.etica.ai/mul-Zyyy/tm/XZ/schemam/">
+                              
+                                <span class='incognitum-phrasim'>Trānslātiōnem memoriam</span> : schemam.tm.hxl
+                              
+                            </a>
+                          </li>
+                      <li>
+                            <a class="dropdown-item"
+                              href="https://hapi.etica.ai/mul-Zyyy/tm/XZ/commune/">
+                              
+                                <span class='incognitum-phrasim'>Trānslātiōnem memoriam</span> : commune.tm.hxl
+                              
+                            </a>
+                          </li></ul>
+                </li></ul>
+        <!--
+          _[eng] About dir="auto", check:
+                   - https://www.w3.org/International/questions/qa-html-dir
+                   - https://www.w3.org/International/tutorials/bidi-xhtml/
+                 A visitor may be using a page in LTR but try to search with an
+                 RTL script.
+          [eng]_
+        -->
+        <form  method="GET" dir="auto"
+          action="https://github.com/HXL-CPLP/Auxilium-Humanitarium-API/search?q=">
+          <input class="form-control" type="text" name="q"
+            placeholder="Hapi_quaerere_nomen"
+            aria-label="Hapi_quaerere_nomen">
+        </form>
+
+        <!--
+          This Language selector needs inprovement.
+          It's hardcoded to a /api/UN/HDX/...
+          We also could detect user language and try to suggest
+          a different page.
+        -->
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" aria-expanded="false"
+              data-bs-toggle="dropdown" id="dropdown09" href="#"
+              aria-label="Toggle language">
+              <svg style="height: 2em" aria-hidden="true" focusable="false"
+                data-prefix="fas" data-icon="language"
+                class="svg-inline--fa fa-language fa-w-20" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                <path fill="currentColor" d="M152.1 236.2c-3.5-12.1-7.8-33.2-7.8-33.2h-.5s-4.3 21.1-7.8 33.2l-11.1 37.5H163zM616 96H336v320h280c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24zm-24 120c0 6.6-5.4 12-12 12h-11.4c-6.9 23.6-21.7 47.4-42.7 69.9 8.4 6.4 17.1 12.5 26.1 18 5.5 3.4 7.3 10.5 4.1 16.2l-7.9 13.9c-3.4 5.9-10.9 7.8-16.7 4.3-12.6-7.8-24.5-16.1-35.4-24.9-10.9 8.7-22.7 17.1-35.4 24.9-5.8 3.5-13.3 1.6-16.7-4.3l-7.9-13.9c-3.2-5.6-1.4-12.8 4.2-16.2 9.3-5.7 18-11.7 26.1-18-7.9-8.4-14.9-17-21-25.7-4-5.7-2.2-13.6 3.7-17.1l6.5-3.9 7.3-4.3c5.4-3.2 12.4-1.7 16 3.4 5 7 10.8 14 17.4 20.9 13.5-14.2 23.8-28.9 30-43.2H412c-6.6 0-12-5.4-12-12v-16c0-6.6 5.4-12 12-12h64v-16c0-6.6 5.4-12 12-12h16c6.6 0 12 5.4 12 12v16h64c6.6 0 12 5.4 12 12zM0 120v272c0 13.3 10.7 24 24 24h280V96H24c-13.3 0-24 10.7-24 24zm58.9 216.1L116.4 167c1.7-4.9 6.2-8.1 11.4-8.1h32.5c5.1 0 9.7 3.3 11.4 8.1l57.5 169.1c2.6 7.8-3.1 15.9-11.4 15.9h-22.9a12 12 0 0 1-11.5-8.6l-9.4-31.9h-60.2l-9.1 31.8c-1.5 5.1-6.2 8.7-11.5 8.7H70.3c-8.2 0-14-8.1-11.4-15.9z">
+                </path>
+              </svg>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown09">
+              <li>
+                <a class="dropdown-item" href="/eng-Latn/">
+                  <span data-l10n-objectivum-linguam='eng-Latn'>English language (Latin script)</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/por-Latn/">
+                  <span data-l10n-objectivum-linguam='por-Latn'>Língua portuguesa (alfabeto latino)</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="paginam-experimentum-gradient"></div>
+<div class="paginam-experimentum-textum">
+  _[lat]<strong lang="la">Harenarium</strong>[lat]_ &#160;&#160;&#160;
+  _[ara]<strong lang="ar">ملعب</strong>[ara]_ &#160;&#160;&#160;
+  _[zho]<strong lang="zh">沙盒</strong>[zho]_ &#160;&#160;&#160;
+  _[hin]<strong lang="hi">प्रयोगस्थल</strong>[hin]_ &#160;&#160;&#160;
+  _[rus]<strong lang="ru">Песочница</strong>[rus]_ &#160;&#160;&#160;
+  _[kor]<strong lang="ko">연습장</strong>[kor]_ &#160;&#160;&#160;
+  _[por]<strong lang="pt">Página de testes</strong>[por]_ &#160;&#160;&#160;
+  _[spa]<strong lang="es">Zona de pruebas</strong>[spa]_ &#160;&#160;&#160;
+  _[eng]<strong lang="en">Sandbox</strong>[eng]_ &#160;&#160;&#160;
+  _[ger]<strong lang="de">Spielwiese</strong>[ger]_ &#160;&#160;&#160;
+</div> 
+<div class="paginam-experimentum-gradient"></div>  
+
+<header class="container">
+    <h1>Alternātīvum pāginam: <span data-l10n-objectivum-linguam='eng-Latn'>COD Services: Common Operational Datasets Services 2</span></h1>
+    
+
+
+    <div class="form-check form-switch">
+      <input class="form-check-input" type="checkbox" id="peritum-modum-est">
+      <label class="form-check-label" for="peritum-modum-est">
+        🛠️<span class='incognitum-phrasim'>Peritum modum est?</span>🛠️
+      </label>
+    </div>
+
+    
+    
+    
+  </header>
+  <main class="page-content" aria-label="Content">
+    <div class="container">
+      <!-- _includes/xdefallo-linguam-notitia.html -->
+
+<div class="alert alert-info" role="alert">
+  <ul>
+    <li><p><span data-l10n-objectivum-linguam="lat-Latn">Haec est pagina <a href="https://la.wikipedia.org/wiki/Vicipaedia:Discretiva">discretiva</a> (multiple linguam)</span></p>
+</li>
+    <li><p><span data-l10n-objectivum-linguam="por-Latn">Está é uma página de <a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Desambigua%C3%A7%C3%A3o">desambiguação</a> (de idiomas do mesmo recurso)</span></p>
+</li>
+    <li><p><span data-l10n-objectivum-linguam="eng-Latn">This is a <a href="https://en.wikipedia.org/wiki/Wikipedia:Disambiguation">disambiguation</a> page (language of resource)</span></p>
+</li>
+  </ul>
+</div>
+
+<!-- _includes/api/index-xdefallo.html -->
+
+
+
+
+
+
+
+
+
+
+
+  <article style="padding: 1em">
+    <!-- _includes/api/item.html -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card">
+  <div class="card-header">
+    <small>🗣mul-Zyyy🗣</small>
+    
+      <small><span class='incognitum-phrasim'>🚧 Opus in progressu 🚧</span></small>
+    
+  </div>
+  <div class="card-body">
+
+    <h2 class="card-title" id="mul-zyyy-api-un-codv2api">
+      
+        mul-Zyyy - Alternātīvum pāginam: <span data-l10n-objectivum-linguam='eng-Latn'>COD Services: Common Operational Datasets Services 2</span>
+      </h2>
+
+    <p class="card-text">
+      
+    </p>
+
+    <a href="/mul-Zyyy/api/UN/CODV2API/" hreflang="x-default"
+      class="btn btn-primary">
+      API Interativa
+    </a>
+    <a href=""
+      hreflang="x-default" class="btn btn-default">
+      OpenAPI
+    </a>
+  </div>
+  <!--
+  <div class="card-footer">
+    <small class="text-muted">
+      <span class='incognitum-phrasim'>Agnitiōnem et grātiam</span>: <br>
+      <mark lang="pt">_[por-Latn] TODO: adicionar lista de colaboradores [por-Latn]_</mark>
+    </small>
+  </div>
+  -->
+</div>
+
+  </article>
+
+  <article style="padding: 1em">
+    <!-- _includes/api/item.html -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card">
+  <div class="card-header">
+    <small>🗣eng-Latn🗣</small>
+    
+      <small><span class='incognitum-phrasim'>🚧 Opus in progressu 🚧</span></small>
+    
+  </div>
+  <div class="card-body">
+
+    <h2 class="card-title" id="eng-latn-api-un-common-operational-datasets-api">
+      
+        eng-Latn - COD Services: Common Operational Datasets Services 2
+      </h2>
+
+    <p class="card-text">
+      
+    </p>
+
+    <a href="/eng-Latn/api/UN/common-operational-datasets-api/" hreflang="en"
+      class="btn btn-primary">
+      API Interativa
+    </a>
+    <a href="/api/UN/CODV2API/eng/openapi.yaml"
+      hreflang="en" class="btn btn-default">
+      OpenAPI
+    </a>
+  </div>
+  <!--
+  <div class="card-footer">
+    <small class="text-muted">
+      <span class='incognitum-phrasim'>Agnitiōnem et grātiam</span>: <br>
+      <mark lang="pt">_[por-Latn] TODO: adicionar lista de colaboradores [por-Latn]_</mark>
+    </small>
+  </div>
+  -->
+</div>
+
+  </article>
+
+  <article style="padding: 1em">
+    <!-- _includes/api/item.html -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card">
+  <div class="card-header">
+    <small>🗣por-Latn🗣</small>
+    
+      <small><span class='incognitum-phrasim'>🚧 Opus in progressu 🚧</span></small>
+    
+  </div>
+  <div class="card-body">
+
+    <h2 class="card-title" id="por-latn-api-un-common-operational-datasets-api">
+      
+        por-Latn - <span data-l10n-objectivum-linguam='por-Latn'>COD API versão 2</span>
+      </h2>
+
+    <p class="card-text">
+      
+    </p>
+
+    <a href="/por-Latn/api/UN/common-operational-datasets-api/" hreflang="pt"
+      class="btn btn-primary">
+      API Interativa
+    </a>
+    <a href="/api/UN/CODV2API/eng/openapi.yaml"
+      hreflang="pt" class="btn btn-default">
+      OpenAPI
+    </a>
+  </div>
+  <!--
+  <div class="card-footer">
+    <small class="text-muted">
+      <span class='incognitum-phrasim'>Agnitiōnem et grātiam</span>: <br>
+      <mark lang="pt">_[por-Latn] TODO: adicionar lista de colaboradores [por-Latn]_</mark>
+    </small>
+  </div>
+  -->
+</div>
+
+  </article>
+
+
+
+
+      <!-- _includes/alternativum-linguam.html -->
+
+
+
+
+  <nav class="nav nav-pills nav-fill">
+    <h2>
+    <svg style="height: 2em" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="language" class="svg-inline--fa fa-language fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+      <path fill="currentColor" d="M152.1 236.2c-3.5-12.1-7.8-33.2-7.8-33.2h-.5s-4.3 21.1-7.8 33.2l-11.1 37.5H163zM616 96H336v320h280c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24zm-24 120c0 6.6-5.4 12-12 12h-11.4c-6.9 23.6-21.7 47.4-42.7 69.9 8.4 6.4 17.1 12.5 26.1 18 5.5 3.4 7.3 10.5 4.1 16.2l-7.9 13.9c-3.4 5.9-10.9 7.8-16.7 4.3-12.6-7.8-24.5-16.1-35.4-24.9-10.9 8.7-22.7 17.1-35.4 24.9-5.8 3.5-13.3 1.6-16.7-4.3l-7.9-13.9c-3.2-5.6-1.4-12.8 4.2-16.2 9.3-5.7 18-11.7 26.1-18-7.9-8.4-14.9-17-21-25.7-4-5.7-2.2-13.6 3.7-17.1l6.5-3.9 7.3-4.3c5.4-3.2 12.4-1.7 16 3.4 5 7 10.8 14 17.4 20.9 13.5-14.2 23.8-28.9 30-43.2H412c-6.6 0-12-5.4-12-12v-16c0-6.6 5.4-12 12-12h64v-16c0-6.6 5.4-12 12-12h16c6.6 0 12 5.4 12 12v16h64c6.6 0 12 5.4 12 12zM0 120v272c0 13.3 10.7 24 24 24h280V96H24c-13.3 0-24 10.7-24 24zm58.9 216.1L116.4 167c1.7-4.9 6.2-8.1 11.4-8.1h32.5c5.1 0 9.7 3.3 11.4 8.1l57.5 169.1c2.6 7.8-3.1 15.9-11.4 15.9h-22.9a12 12 0 0 1-11.5-8.6l-9.4-31.9h-60.2l-9.1 31.8c-1.5 5.1-6.2 8.7-11.5 8.7H70.3c-8.2 0-14-8.1-11.4-15.9z">
+      </path>
+    </svg>
+    Linguam
+    </h2>
+    
+      
+        <a class="nav-link active" rel="alternate" aria-current="page"
+          hreflang="x-default" href="/mul-Zyyy/api/UN/CODV2API/">
+          mul-Zyyy
+          
+          <sup>🚧</sup>
+          
+        </a>
+      
+    
+      
+        <a class="nav-link" rel="alternate" 
+          hreflang="en" href="/eng-Latn/api/UN/common-operational-datasets-api/">
+          eng-Latn
+          
+          <sup>🚧</sup>
+          
+        </a>
+
+      
+    
+      
+        <a class="nav-link" rel="alternate" 
+          hreflang="pt" href="/por-Latn/api/UN/common-operational-datasets-api/">
+          por-Latn
+          
+          <sup>🚧</sup>
+          
+        </a>
+
+      
+    
+  </nav>
+
+
+    </div>
+  </main><!--
+  Trivia:
+  - "pedem"
+    - https://en.wiktionary.org/wiki/pes#Latin
+-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+crossorigin="anonymous"></script>
+
+<script type="module" src="/assets/js/hapi-globum.mjs?1636016554"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swagger-ui-dist@3.49.0/swagger-ui-bundle.js"
+integrity="sha384-TsNPQoWzG+yZglf0QyR2pSxpd230yWkR9JJPog0+qnOLds0Y7XT8MH1zdUeVI65/"
+crossorigin="anonymous"></script>
+<script src="https://unpkg.com/rapipdf/dist/rapipdf-min.js"></script>
+<script>
+
+    function render() {
+        var ui = SwaggerUIBundle({
+            // url:  `path/to/my/swagger.yaml`,
+            // url: `https://hapi.etica.ai/api/BR/portais-ckan-brasil/por/openapi.yaml`,
+            url: ``,
+            dom_id: '#swagger-ui',
+            presets: [
+                SwaggerUIBundle.presets.apis,
+                SwaggerUIBundle.SwaggerUIStandalonePreset
+            ]
+        });
+    }
+    window.onload = function () {
+        render()
+    }
+</script>
+
+<script type="module" src="/assets/js/hapi-api.mjs?1636016554"></script>
+
+
+<div class="paginam-experimentum-gradient"></div>
+<div class="paginam-experimentum-textum">
+  _[lat]<strong lang="la">Harenarium</strong>[lat]_ &#160;&#160;&#160;
+  _[ara]<strong lang="ar">ملعب</strong>[ara]_ &#160;&#160;&#160;
+  _[zho]<strong lang="zh">沙盒</strong>[zho]_ &#160;&#160;&#160;
+  _[hin]<strong lang="hi">प्रयोगस्थल</strong>[hin]_ &#160;&#160;&#160;
+  _[rus]<strong lang="ru">Песочница</strong>[rus]_ &#160;&#160;&#160;
+  _[kor]<strong lang="ko">연습장</strong>[kor]_ &#160;&#160;&#160;
+  _[por]<strong lang="pt">Página de testes</strong>[por]_ &#160;&#160;&#160;
+  _[spa]<strong lang="es">Zona de pruebas</strong>[spa]_ &#160;&#160;&#160;
+  _[eng]<strong lang="en">Sandbox</strong>[eng]_ &#160;&#160;&#160;
+  _[ger]<strong lang="de">Spielwiese</strong>[ger]_ &#160;&#160;&#160;
+</div> 
+<div class="paginam-experimentum-gradient"></div>  
+
+<!-- _includes/peritum-modum/instrumentum-balteum.html -->
+
+<aside class="peritum-est container"
+  style="margin-bottom: 80px; border: thick dotted rgb(110, 110, 4); ">
+  <h2 id="ignotum-linguam"><span class='incognitum-phrasim'>Vēnandum īnsectum</span></h2>
+  <h3 id="ignotum-linguam"><span class='incognitum-phrasim'>Ignōtum linguam</span></h3>
+
+  <!-- _includes/peritum-modum/ignotum-linguam.html -->
+
+<span class='incognitum-phrasim'>🚧 Opus in progressu 🚧</span>
+
+</aside>
+
+<div class="peritum-est">
+  <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+    <h2 class="visually-hidden-focusable">Peritum mode</h2>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">🛠️</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" target="_blank"
+              href="https://wave.webaim.org/report#/https://hapi.etica.ai/mul-Zyyy/api/UN/CODV2API/">
+              WAVE?
+            </a>
+          </li>
+          <!--
+            - https://www.w3.org/WAI/ER/tools/?q=online-tool
+            - https://www.accessibility.sa.gov.au/your-role/development/screen-reader
+            - https://www.nvaccess.org/
+            - https://help.gnome.org/users/orca/stable/
+            - https://www.apple.com/br/accessibility/vision/
+
+          -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" target="_blank"
+            href="https://validator.w3.org/nu/?showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fhapi.etica.ai%2Fmul-Zyyy%2Fapi%2FUN%2FCODV2API%2F">
+              HTML5?
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" target="_blank"
+            href="https://search.google.com/structured-data/testing-tool/u/0/#url=https%3A%2F%2Fhapi.etica.ai%2Fmul-Zyyy%2Fapi%2FUN%2FCODV2API%2F">
+               Schema?
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" target="_blank"
+            href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fhapi.etica.ai%2Fmul-Zyyy%2Fapi%2FUN%2FCODV2API%2F">
+              PageSpeed?
+            </a>
+          </li>
+          <li class="nav-item dropup">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown-pm-2"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              A11y
+            </a>
+            <!-- https://www.w3.org/WAI/ER/tools/?q=online-tool -->
+            <ul class="dropdown-menu" aria-labelledby="dropdown-pm-2">
+              <li>
+                <a class="dropdown-item" target="_blank"
+                href="https://wave.webaim.org/report#/https://hapi.etica.ai/mul-Zyyy/api/UN/CODV2API/">
+                  WAVE?
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" target="_blank"
+                href="https://www.accessi.org/?=https://hapi.etica.ai/mul-Zyyy/api/UN/CODV2API/">
+                  Accessi?
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" target="_blank"
+                href="https://www.webaccessibility.com/results/?url=https%3A%2F%2Fhapi.etica.ai%2Fmul-Zyyy%2Fapi%2FUN%2FCODV2API%2F">
+                  A11y Level Access?
+                </a>
+              </li>
+              <!--
+                Stopped on 'Accessibility Scanning & Monitoring by UserWay'
+              -->
+              <li>
+                <a class="dropdown-item" target="_blank"
+                href="https://www.w3.org/WAI/ER/tools/?q=online-tool">
+                  W3C WAI (...)
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropup">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown10"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              ℹ️
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown10">
+              <li>
+                <a class="dropdown-item" target="_blank"
+                  href="https://github.com/HXL-CPLP/Auxilium-Humanitarium-API/wiki">
+                  Wiki
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" target="_blank"
+                  href="https://docs.google.com/spreadsheets/d/1ih3ouvx_n8W5ntNcYBqoyZ2NRMdaA0LRg5F9mGriZm4/edit#gid=816634241">
+                  T.M.
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" target="_blank"
+                  href="https://github.com/HXL-CPLP/Auxilium-Humanitarium-API/actions">
+                  GitHub Actions Logs
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+</body>
+
+</html>

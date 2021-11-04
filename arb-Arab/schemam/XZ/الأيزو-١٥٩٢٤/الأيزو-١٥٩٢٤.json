@@ -1,0 +1,51 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://hapi.etica.ai/arb-Arab/schemam/XZ/%D8%A7%D9%84%D8%A3%D9%8A%D8%B2%D9%88-%D9%A1%D9%A5%D9%A9%D9%A2%D9%A4/%D8%A7%D9%84%D8%A3%D9%8A%D8%B2%D9%88-%D9%A1%D9%A5%D9%A9%D9%A2%D9%A4.json",
+    "title": "الأيزو ١٥٩٢٤",
+    "description": "Códigos para a representação de nomes de sistemas de escrita",
+    "$comment": "https://www.unicode.org/iso15924/codelists.html, https://www.unicode.org/iso15924/iso15924.txt",
+    "type": "object",
+    "properties": {
+        "Code": {
+            "description": "O código no formato Latin Básico (bloco Unicode) para o identificador ISO 15924",
+            "type": "string",
+            "length": 4,
+            "example": "Arab"
+        },
+        "Nº": {
+            "description": "O código identificador para o ISO 15924 expressado em linguagem neutra para sistemas de escrita expressado em números de 3 dígitos em sistema numérico decimal",
+            "type": "string",
+            "length": 3,
+            "example": "160"
+        },
+        "English Name": {
+            "description": "Nome em inglês do identificador ISO 15924",
+            "type": "string",
+            "example": "Latin",
+            "$comment": "_[eng-Latn]TODO: investigate maximum length[eng-Latn]_"
+        },
+        "Nom français": {
+            "description": "Nome em francês do identificador ISO 15924",
+            "type": "string",
+            "example": "latin",
+            "$comment": "_[eng-Latn]TODO: investigate maximum length[eng-Latn]_"
+        },
+        "PVA": {
+            "description": "O alias do valor da propriedade é definido como parte do padrão Unicode e é fornecido informativamente nas tabelas aqui para mostrar como as entradas na tabela de códigos ISO 15924 se relacionam com nomes de script definidos em Unicode",
+            "type": "string",
+            "example": "Latin",
+            "$comment": "_[eng-Latn]TODO: investigate maximum length[eng-Latn]_"
+        },
+        "Unicode Version": {
+            "description": "A versão Unicode em que o identificador ISO 15924 foi adicionado",
+            "example": "1.1",
+            "type": "number"
+        },
+        "Date": {
+            "description": "A data em que o identificador ISO 15924 foi adicionado",
+            "type": "string",
+            "format": "date",
+            "example": "2004-05-01"
+        }
+    }
+}

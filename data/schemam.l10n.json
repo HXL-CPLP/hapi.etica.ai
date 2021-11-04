@@ -1,0 +1,1747 @@
+[
+  {
+    "uid": "/mul-Zyyy/dictionarium/XZ/humanitarium-responsum-rem/",
+    "xdefallo": "/mul-Zyyy/dictionarium/XZ/humanitarium-responsum-rem/",
+    "xdefallo_est": true,
+    "linguam": "mul-Zyyy",
+    "typum": "dictionarium",
+    "gid": "XZ",
+    "lid": "humanitarium-responsum-rem",
+    "nomen": "<span >Dicionário de Inventário para Resposta Humanitária</span>",
+    "titulum": "<span >DIRH: Dicionário de Inventário para Resposta Humanitária</span>",
+    "summarius": "<span >Dicionário de Inventário para Resposta Humanitária (...summarius)</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://github.com/HXL-CPLP/forum/issues/60"
+        }
+      ]
+    },
+    "archivum": {
+      "referens_officinale": [
+        {
+          "nomen": "HXL-CPLP/forum#60",
+          "iri": "https://github.com/HXL-CPLP/forum/issues/60"
+        }
+      ]
+    },
+    "opus_in_progressu": true,
+    "experimentum_est": true
+  },
+  {
+    "uid": "/por-Latn/dicionario/XZ/DIRH/",
+    "xdefallo": "/mul-Zyyy/dictionarium/XZ/humanitarium-responsum-rem/",
+    "linguam": "por-Latn",
+    "typum": "dictionarium",
+    "gid": "XZ",
+    "lid": "DIRH",
+    "slug_permanens": "DIRH",
+    "slug_situs_interretialis": "Dicionário de Inventário para Resposta Humanitária (...summarius)",
+    "nomen": "Dicionário de Inventário para Resposta Humanitária",
+    "titulum": "DIRH: Dicionário de Inventário para Resposta Humanitária",
+    "summarius": "<span data-l10n-objectivum-linguam='por-Latn'>Dicionário de Inventário para Resposta Humanitária (...summarius)</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://github.com/HXL-CPLP/forum/issues/60"
+        }
+      ]
+    },
+    "archivum": {
+      "referens_officinale": [
+        {
+          "nomen": "HXL-CPLP/forum#60",
+          "iri": "https://github.com/HXL-CPLP/forum/issues/60"
+        }
+      ],
+      "schemam": {
+        "json": [
+          {
+            "iri": "/por-Latn/dicionario/XZ/DIRH/DIRH.json"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/humanitarium-responsum-rem.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/dictionarium/humanitarium-responsum-rem/testum.🗣️.json",
+        "objectivum": "/por-Latn/dicionario/XZ/DIRH/DIRH.json"
+      }
+    ],
+    "opus_in_progressu": true,
+    "experimentum_est": true
+  },
+  {
+    "uid": "/eng-Latn/dictionary/XZ/HRID/",
+    "xdefallo": "/mul-Zyyy/dictionarium/XZ/humanitarium-responsum-rem/",
+    "linguam": "eng-Latn",
+    "typum": "dictionarium",
+    "gid": "XZ",
+    "lid": "HRID",
+    "slug_permanens": "HRID",
+    "slug_situs_interretialis": "Humanitarian Response Inventory Dictionary (...summarius)",
+    "nomen": "Humanitarian Response Inventory Dictionary",
+    "titulum": "HRID: Humanitarian Response Inventory Dictionary",
+    "summarius": "<span data-l10n-objectivum-linguam='eng-Latn'>Humanitarian Response Inventory Dictionary (...summarius)</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://github.com/HXL-CPLP/forum/issues/60"
+        }
+      ]
+    },
+    "archivum": {
+      "referens_officinale": [
+        {
+          "nomen": "HXL-CPLP/forum#60",
+          "iri": "https://github.com/HXL-CPLP/forum/issues/60"
+        }
+      ],
+      "schemam": {
+        "json": [
+          {
+            "iri": "/eng-Latn/dictionary/XZ/HRID/HRID.json"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/humanitarium-responsum-rem.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/dictionarium/humanitarium-responsum-rem/testum.🗣️.json",
+        "objectivum": "/eng-Latn/dictionary/XZ/HRID/HRID.json"
+      }
+    ],
+    "opus_in_progressu": true,
+    "experimentum_est": true
+  },
+  {
+    "uid": "/arb-Arab/dictionarium/XZ/HRR_slug/",
+    "xdefallo": "/mul-Zyyy/dictionarium/XZ/humanitarium-responsum-rem/",
+    "linguam": "arb-Arab",
+    "typum": "dictionarium",
+    "gid": "XZ",
+    "lid": "HRR_slug",
+    "slug_permanens": "HRR_slug",
+    "slug_situs_interretialis": "HRR_summarius",
+    "nomen": "HRR_nomen",
+    "titulum": "HRR_titulum",
+    "summarius": "<span lang='ar' data-l10n-objectivum-linguam='arb-Arab' class='incognitum-phrasim'>Dicionário de Inventário para Resposta Humanitária (...summarius)</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://github.com/HXL-CPLP/forum/issues/60"
+        }
+      ]
+    },
+    "archivum": {
+      "referens_officinale": [
+        {
+          "nomen": "HXL-CPLP/forum#60",
+          "iri": "https://github.com/HXL-CPLP/forum/issues/60"
+        }
+      ],
+      "schemam": {
+        "json": [
+          {
+            "iri": "/arb-Arab/dictionarium/XZ/HRR_slug/HRR_slug.json"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/humanitarium-responsum-rem.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/dictionarium/humanitarium-responsum-rem/testum.🗣️.json",
+        "objectivum": "/arb-Arab/dictionarium/XZ/HRR_slug/HRR_slug.json"
+      }
+    ],
+    "opus_in_progressu": true,
+    "experimentum_est": true
+  },
+  {
+    "uid": "/slv-Latn/dictionarium/XZ/HRR_slug/",
+    "xdefallo": "/mul-Zyyy/dictionarium/XZ/humanitarium-responsum-rem/",
+    "linguam": "slv-Latn",
+    "typum": "dictionarium",
+    "gid": "XZ",
+    "lid": "HRR_slug",
+    "slug_permanens": "HRR_slug",
+    "slug_situs_interretialis": "HRR_summarius",
+    "nomen": "HRR_nomen",
+    "titulum": "HRR_titulum",
+    "summarius": "<span lang='sl' data-l10n-objectivum-linguam='slv-Latn' class='incognitum-phrasim'>Dicionário de Inventário para Resposta Humanitária (...summarius)</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://github.com/HXL-CPLP/forum/issues/60"
+        }
+      ]
+    },
+    "archivum": {
+      "referens_officinale": [
+        {
+          "nomen": "HXL-CPLP/forum#60",
+          "iri": "https://github.com/HXL-CPLP/forum/issues/60"
+        }
+      ],
+      "schemam": {
+        "json": [
+          {
+            "iri": "/slv-Latn/dictionarium/XZ/HRR_slug/HRR_slug.json"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/humanitarium-responsum-rem.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/dictionarium/humanitarium-responsum-rem/testum.🗣️.json",
+        "objectivum": "/slv-Latn/dictionarium/XZ/HRR_slug/HRR_slug.json"
+      }
+    ],
+    "opus_in_progressu": true,
+    "experimentum_est": true
+  },
+  {
+    "uid": "/spa-Latn/diccionario/XZ/DIRH/",
+    "xdefallo": "/mul-Zyyy/dictionarium/XZ/humanitarium-responsum-rem/",
+    "linguam": "spa-Latn",
+    "typum": "dictionarium",
+    "gid": "XZ",
+    "lid": "DIRH",
+    "slug_permanens": "DIRH",
+    "slug_situs_interretialis": "Diccionario de Inventario de Respuesta Humanitaria (...summarius)",
+    "nomen": "Diccionario de Inventario de Respuesta Humanitaria",
+    "titulum": "DIRH: Diccionario de Inventario de Respuesta Humanitaria",
+    "summarius": "<span data-l10n-objectivum-linguam='spa-Latn'>Diccionario de Inventario de Respuesta Humanitaria (...summarius)</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://github.com/HXL-CPLP/forum/issues/60"
+        }
+      ]
+    },
+    "archivum": {
+      "referens_officinale": [
+        {
+          "nomen": "HXL-CPLP/forum#60",
+          "iri": "https://github.com/HXL-CPLP/forum/issues/60"
+        }
+      ],
+      "schemam": {
+        "json": [
+          {
+            "iri": "/spa-Latn/diccionario/XZ/DIRH/DIRH.json"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/humanitarium-responsum-rem.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/dictionarium/humanitarium-responsum-rem/testum.🗣️.json",
+        "objectivum": "/spa-Latn/diccionario/XZ/DIRH/DIRH.json"
+      }
+    ],
+    "opus_in_progressu": true,
+    "experimentum_est": true
+  },
+  {
+    "uid": "/hin-Deva/dictionarium/XZ/HRR_slug/",
+    "xdefallo": "/mul-Zyyy/dictionarium/XZ/humanitarium-responsum-rem/",
+    "linguam": "hin-Deva",
+    "typum": "dictionarium",
+    "gid": "XZ",
+    "lid": "HRR_slug",
+    "slug_permanens": "HRR_slug",
+    "slug_situs_interretialis": "HRR_summarius",
+    "nomen": "HRR_nomen",
+    "titulum": "HRR_titulum",
+    "summarius": "<span lang='hi' data-l10n-objectivum-linguam='hin-Deva' class='incognitum-phrasim'>Dicionário de Inventário para Resposta Humanitária (...summarius)</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://github.com/HXL-CPLP/forum/issues/60"
+        }
+      ]
+    },
+    "archivum": {
+      "referens_officinale": [
+        {
+          "nomen": "HXL-CPLP/forum#60",
+          "iri": "https://github.com/HXL-CPLP/forum/issues/60"
+        }
+      ],
+      "schemam": {
+        "json": [
+          {
+            "iri": "/hin-Deva/dictionarium/XZ/HRR_slug/HRR_slug.json"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/humanitarium-responsum-rem.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/dictionarium/humanitarium-responsum-rem/testum.🗣️.json",
+        "objectivum": "/hin-Deva/dictionarium/XZ/HRR_slug/HRR_slug.json"
+      }
+    ],
+    "opus_in_progressu": true,
+    "experimentum_est": true
+  },
+  {
+    "uid": "/mul-Zyyy/schemam/UN/HTCDS/",
+    "xdefallo": "/mul-Zyyy/schemam/UN/HTCDS/",
+    "xdefallo_est": true,
+    "linguam": "mul-Zyyy",
+    "typum": "schemam",
+    "gid": "UN",
+    "lid": "HTCDS",
+    "nomen": "<span >Padrão de Dados de Casos de Tráfico Humano</span>",
+    "titulum": "<span >PDCTH: O Padrão de Dados de Casos de Tráfico Humano</span>",
+    "summarius": "<span >O Padrão de Dados de Casos de Tráfico Humano (PDCTH) é um formato global e uma abordagem comum para coletar e registrar dados de casos relacionados ao tráfico de pessoas. O padrão permitirá que organizações em todo o mundo coletem e potencialmente compartilhem informações relacionadas à casos de tráfico humano de maneira consistente. O PDCTH pretende ser uma referência para organizações que lidam com casos relacionados ao tráfico humano, provedores de serviços de tecnologia e fornecedores independentes de software (FIDs).</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://github.com/UNMigration/HTCDS"
+        }
+      ]
+    },
+    "archivum": {
+      "referens_officinale": [
+        {
+          "nomen": "HTCDS Excel Spreadsheet.xlsm",
+          "iri": "https://github.com/UNMigration/HTCDS/blob/master/Toolkit/Excel/HTCDS%20Excel%20Spreadsheet.xlsm"
+        },
+        {
+          "nomen": "htcds_xlsform.xlsx",
+          "iri": "https://github.com/UNMigration/HTCDS/blob/master/Toolkit/Survey/htcds_xlsform.xlsx"
+        }
+      ]
+    },
+    "opus_in_progressu": true,
+    "experimentum_est": true
+  },
+  {
+    "uid": "/por-Latn/esquema-de-dados/UN/PDCTH/",
+    "xdefallo": "/mul-Zyyy/schemam/UN/HTCDS/",
+    "linguam": "por-Latn",
+    "typum": "schemam",
+    "gid": "UN",
+    "lid": "PDCTH",
+    "slug_permanens": "PDCTH",
+    "slug_situs_interretialis": "pdcth-padrao-de-dados-de-casos-de-trafico-humano",
+    "nomen": "Padrão de Dados de Casos de Tráfico Humano",
+    "titulum": "PDCTH: O Padrão de Dados de Casos de Tráfico Humano",
+    "summarius": "<span data-l10n-objectivum-linguam='por-Latn'>O Padrão de Dados de Casos de Tráfico Humano (PDCTH) é um formato global e uma abordagem comum para coletar e registrar dados de casos relacionados ao tráfico de pessoas. O padrão permitirá que organizações em todo o mundo coletem e potencialmente compartilhem informações relacionadas à casos de tráfico humano de maneira consistente. O PDCTH pretende ser uma referência para organizações que lidam com casos relacionados ao tráfico humano, provedores de serviços de tecnologia e fornecedores independentes de software (FIDs).</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://github.com/UNMigration/HTCDS"
+        }
+      ]
+    },
+    "archivum": {
+      "referens_officinale": [
+        {
+          "nomen": "HTCDS Excel Spreadsheet.xlsm",
+          "iri": "https://github.com/UNMigration/HTCDS/blob/master/Toolkit/Excel/HTCDS%20Excel%20Spreadsheet.xlsm"
+        },
+        {
+          "nomen": "htcds_xlsform.xlsx",
+          "iri": "https://github.com/UNMigration/HTCDS/blob/master/Toolkit/Survey/htcds_xlsform.xlsx"
+        }
+      ],
+      "schemam": {
+        "csv+hxl": [
+          {
+            "iri": "/por-Latn/esquema-de-dados/UN/PDCTH/PDCTH.csv"
+          }
+        ],
+        "json": [
+          {
+            "iri": "/por-Latn/esquema-de-dados/UN/PDCTH/PDCTH.json"
+          }
+        ],
+        "sql": [
+          {
+            "iri": "/por-Latn/esquema-de-dados/UN/PDCTH/sql/PDCTH.sql"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam-un-htcds.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/UN/HTCDS/HTCDS.🗣️.csv",
+        "objectivum": "/por-Latn/esquema-de-dados/UN/PDCTH/PDCTH.csv"
+      },
+      {
+        "fontem": "/schemam/UN/HTCDS/HTCDS.🗣️.json",
+        "objectivum": "/por-Latn/esquema-de-dados/UN/PDCTH/PDCTH.json"
+      },
+      {
+        "fontem": "/schemam/UN/HTCDS/sql/HTCDS.🗣️.sql",
+        "objectivum": "/por-Latn/esquema-de-dados/UN/PDCTH/sql/PDCTH.sql"
+      }
+    ],
+    "opus_in_progressu": true,
+    "experimentum_est": true
+  },
+  {
+    "uid": "/eng-Latn/data-schema/UN/HTCDS/",
+    "xdefallo": "/mul-Zyyy/schemam/UN/HTCDS/",
+    "linguam": "eng-Latn",
+    "typum": "schemam",
+    "gid": "UN",
+    "lid": "HTCDS",
+    "slug_permanens": "HTCDS",
+    "slug_situs_interretialis": "htcds-human-trafficking-case-data-standard",
+    "nomen": "Human Trafficking Case Data Standard",
+    "titulum": "HTCDS: The Human Trafficking Case Data Standard",
+    "summarius": "<span data-l10n-objectivum-linguam='eng-Latn'>The Human Trafficking Case Data Standard (HTCDS) is a global format and common approach to collecting and recording case data related to human trafficking. The standard will enable organizations around the world to collect and potentially share information related to human trafficking cases in a consistent way. The HTCDS is intended to be a reference for organizations handling cases related to human trafficking, technology service providers and independent software vendors (ISVs).</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://github.com/UNMigration/HTCDS"
+        }
+      ]
+    },
+    "archivum": {
+      "referens_officinale": [
+        {
+          "nomen": "HTCDS Excel Spreadsheet.xlsm",
+          "iri": "https://github.com/UNMigration/HTCDS/blob/master/Toolkit/Excel/HTCDS%20Excel%20Spreadsheet.xlsm"
+        },
+        {
+          "nomen": "htcds_xlsform.xlsx",
+          "iri": "https://github.com/UNMigration/HTCDS/blob/master/Toolkit/Survey/htcds_xlsform.xlsx"
+        }
+      ],
+      "schemam": {
+        "csv+hxl": [
+          {
+            "iri": "/eng-Latn/data-schema/UN/HTCDS/HTCDS.csv"
+          }
+        ],
+        "json": [
+          {
+            "iri": "/eng-Latn/data-schema/UN/HTCDS/HTCDS.json"
+          }
+        ],
+        "sql": [
+          {
+            "iri": "/eng-Latn/data-schema/UN/HTCDS/sql/HTCDS.sql"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam-un-htcds.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/UN/HTCDS/HTCDS.🗣️.csv",
+        "objectivum": "/eng-Latn/data-schema/UN/HTCDS/HTCDS.csv"
+      },
+      {
+        "fontem": "/schemam/UN/HTCDS/HTCDS.🗣️.json",
+        "objectivum": "/eng-Latn/data-schema/UN/HTCDS/HTCDS.json"
+      },
+      {
+        "fontem": "/schemam/UN/HTCDS/sql/HTCDS.🗣️.sql",
+        "objectivum": "/eng-Latn/data-schema/UN/HTCDS/sql/HTCDS.sql"
+      }
+    ],
+    "opus_in_progressu": true,
+    "experimentum_est": true
+  },
+  {
+    "uid": "/arb-Arab/schemam/UN/HTCDS/",
+    "xdefallo": "/mul-Zyyy/schemam/UN/HTCDS/",
+    "linguam": "arb-Arab",
+    "typum": "schemam",
+    "gid": "UN",
+    "lid": "HTCDS",
+    "slug_permanens": "HTCDS",
+    "slug_situs_interretialis": "HTCDS",
+    "nomen": "UN_codicem_anglicum_IOM_HTCDS_nomen",
+    "titulum": "UN_codicem_anglicum_IOM_HTCDS_titulum",
+    "summarius": "<span lang='ar' data-l10n-objectivum-linguam='arb-Arab' class='incognitum-phrasim'>O Padrão de Dados de Casos de Tráfico Humano (PDCTH) é um formato global e uma abordagem comum para coletar e registrar dados de casos relacionados ao tráfico de pessoas. O padrão permitirá que organizações em todo o mundo coletem e potencialmente compartilhem informações relacionadas à casos de tráfico humano de maneira consistente. O PDCTH pretende ser uma referência para organizações que lidam com casos relacionados ao tráfico humano, provedores de serviços de tecnologia e fornecedores independentes de software (FIDs).</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://github.com/UNMigration/HTCDS"
+        }
+      ]
+    },
+    "archivum": {
+      "referens_officinale": [
+        {
+          "nomen": "HTCDS Excel Spreadsheet.xlsm",
+          "iri": "https://github.com/UNMigration/HTCDS/blob/master/Toolkit/Excel/HTCDS%20Excel%20Spreadsheet.xlsm"
+        },
+        {
+          "nomen": "htcds_xlsform.xlsx",
+          "iri": "https://github.com/UNMigration/HTCDS/blob/master/Toolkit/Survey/htcds_xlsform.xlsx"
+        }
+      ],
+      "schemam": {
+        "csv+hxl": [
+          {
+            "iri": "/arb-Arab/schemam/UN/HTCDS/HTCDS.csv"
+          }
+        ],
+        "json": [
+          {
+            "iri": "/arb-Arab/schemam/UN/HTCDS/HTCDS.json"
+          }
+        ],
+        "sql": [
+          {
+            "iri": "/arb-Arab/schemam/UN/HTCDS/sql/HTCDS.sql"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam-un-htcds.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/UN/HTCDS/HTCDS.🗣️.csv",
+        "objectivum": "/arb-Arab/schemam/UN/HTCDS/HTCDS.csv"
+      },
+      {
+        "fontem": "/schemam/UN/HTCDS/HTCDS.🗣️.json",
+        "objectivum": "/arb-Arab/schemam/UN/HTCDS/HTCDS.json"
+      },
+      {
+        "fontem": "/schemam/UN/HTCDS/sql/HTCDS.🗣️.sql",
+        "objectivum": "/arb-Arab/schemam/UN/HTCDS/sql/HTCDS.sql"
+      }
+    ],
+    "opus_in_progressu": true,
+    "experimentum_est": true
+  },
+  {
+    "uid": "/slv-Latn/schemam/UN/HTCDS/",
+    "xdefallo": "/mul-Zyyy/schemam/UN/HTCDS/",
+    "linguam": "slv-Latn",
+    "typum": "schemam",
+    "gid": "UN",
+    "lid": "HTCDS",
+    "slug_permanens": "HTCDS",
+    "slug_situs_interretialis": "HTCDS",
+    "nomen": "UN_codicem_anglicum_IOM_HTCDS_nomen",
+    "titulum": "UN_codicem_anglicum_IOM_HTCDS_titulum",
+    "summarius": "<span lang='sl' data-l10n-objectivum-linguam='slv-Latn' class='incognitum-phrasim'>O Padrão de Dados de Casos de Tráfico Humano (PDCTH) é um formato global e uma abordagem comum para coletar e registrar dados de casos relacionados ao tráfico de pessoas. O padrão permitirá que organizações em todo o mundo coletem e potencialmente compartilhem informações relacionadas à casos de tráfico humano de maneira consistente. O PDCTH pretende ser uma referência para organizações que lidam com casos relacionados ao tráfico humano, provedores de serviços de tecnologia e fornecedores independentes de software (FIDs).</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://github.com/UNMigration/HTCDS"
+        }
+      ]
+    },
+    "archivum": {
+      "referens_officinale": [
+        {
+          "nomen": "HTCDS Excel Spreadsheet.xlsm",
+          "iri": "https://github.com/UNMigration/HTCDS/blob/master/Toolkit/Excel/HTCDS%20Excel%20Spreadsheet.xlsm"
+        },
+        {
+          "nomen": "htcds_xlsform.xlsx",
+          "iri": "https://github.com/UNMigration/HTCDS/blob/master/Toolkit/Survey/htcds_xlsform.xlsx"
+        }
+      ],
+      "schemam": {
+        "csv+hxl": [
+          {
+            "iri": "/slv-Latn/schemam/UN/HTCDS/HTCDS.csv"
+          }
+        ],
+        "json": [
+          {
+            "iri": "/slv-Latn/schemam/UN/HTCDS/HTCDS.json"
+          }
+        ],
+        "sql": [
+          {
+            "iri": "/slv-Latn/schemam/UN/HTCDS/sql/HTCDS.sql"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam-un-htcds.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/UN/HTCDS/HTCDS.🗣️.csv",
+        "objectivum": "/slv-Latn/schemam/UN/HTCDS/HTCDS.csv"
+      },
+      {
+        "fontem": "/schemam/UN/HTCDS/HTCDS.🗣️.json",
+        "objectivum": "/slv-Latn/schemam/UN/HTCDS/HTCDS.json"
+      },
+      {
+        "fontem": "/schemam/UN/HTCDS/sql/HTCDS.🗣️.sql",
+        "objectivum": "/slv-Latn/schemam/UN/HTCDS/sql/HTCDS.sql"
+      }
+    ],
+    "opus_in_progressu": true,
+    "experimentum_est": true
+  },
+  {
+    "uid": "/spa-Latn/esquema-de-datos/UN/HTCDS/",
+    "xdefallo": "/mul-Zyyy/schemam/UN/HTCDS/",
+    "linguam": "spa-Latn",
+    "typum": "schemam",
+    "gid": "UN",
+    "lid": "HTCDS",
+    "slug_permanens": "HTCDS",
+    "slug_situs_interretialis": "HTCDS",
+    "nomen": "UN_codicem_anglicum_IOM_HTCDS_nomen",
+    "titulum": "UN_codicem_anglicum_IOM_HTCDS_titulum",
+    "summarius": "<span lang='es' data-l10n-objectivum-linguam='spa-Latn' class='incognitum-phrasim'>O Padrão de Dados de Casos de Tráfico Humano (PDCTH) é um formato global e uma abordagem comum para coletar e registrar dados de casos relacionados ao tráfico de pessoas. O padrão permitirá que organizações em todo o mundo coletem e potencialmente compartilhem informações relacionadas à casos de tráfico humano de maneira consistente. O PDCTH pretende ser uma referência para organizações que lidam com casos relacionados ao tráfico humano, provedores de serviços de tecnologia e fornecedores independentes de software (FIDs).</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://github.com/UNMigration/HTCDS"
+        }
+      ]
+    },
+    "archivum": {
+      "referens_officinale": [
+        {
+          "nomen": "HTCDS Excel Spreadsheet.xlsm",
+          "iri": "https://github.com/UNMigration/HTCDS/blob/master/Toolkit/Excel/HTCDS%20Excel%20Spreadsheet.xlsm"
+        },
+        {
+          "nomen": "htcds_xlsform.xlsx",
+          "iri": "https://github.com/UNMigration/HTCDS/blob/master/Toolkit/Survey/htcds_xlsform.xlsx"
+        }
+      ],
+      "schemam": {
+        "csv+hxl": [
+          {
+            "iri": "/spa-Latn/esquema-de-datos/UN/HTCDS/HTCDS.csv"
+          }
+        ],
+        "json": [
+          {
+            "iri": "/spa-Latn/esquema-de-datos/UN/HTCDS/HTCDS.json"
+          }
+        ],
+        "sql": [
+          {
+            "iri": "/spa-Latn/esquema-de-datos/UN/HTCDS/sql/HTCDS.sql"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam-un-htcds.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/UN/HTCDS/HTCDS.🗣️.csv",
+        "objectivum": "/spa-Latn/esquema-de-datos/UN/HTCDS/HTCDS.csv"
+      },
+      {
+        "fontem": "/schemam/UN/HTCDS/HTCDS.🗣️.json",
+        "objectivum": "/spa-Latn/esquema-de-datos/UN/HTCDS/HTCDS.json"
+      },
+      {
+        "fontem": "/schemam/UN/HTCDS/sql/HTCDS.🗣️.sql",
+        "objectivum": "/spa-Latn/esquema-de-datos/UN/HTCDS/sql/HTCDS.sql"
+      }
+    ],
+    "opus_in_progressu": true,
+    "experimentum_est": true
+  },
+  {
+    "uid": "/hin-Deva/schemam/UN/HTCDS/",
+    "xdefallo": "/mul-Zyyy/schemam/UN/HTCDS/",
+    "linguam": "hin-Deva",
+    "typum": "schemam",
+    "gid": "UN",
+    "lid": "HTCDS",
+    "slug_permanens": "HTCDS",
+    "slug_situs_interretialis": "HTCDS",
+    "nomen": "UN_codicem_anglicum_IOM_HTCDS_nomen",
+    "titulum": "UN_codicem_anglicum_IOM_HTCDS_titulum",
+    "summarius": "<span lang='hi' data-l10n-objectivum-linguam='hin-Deva' class='incognitum-phrasim'>O Padrão de Dados de Casos de Tráfico Humano (PDCTH) é um formato global e uma abordagem comum para coletar e registrar dados de casos relacionados ao tráfico de pessoas. O padrão permitirá que organizações em todo o mundo coletem e potencialmente compartilhem informações relacionadas à casos de tráfico humano de maneira consistente. O PDCTH pretende ser uma referência para organizações que lidam com casos relacionados ao tráfico humano, provedores de serviços de tecnologia e fornecedores independentes de software (FIDs).</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://github.com/UNMigration/HTCDS"
+        }
+      ]
+    },
+    "archivum": {
+      "referens_officinale": [
+        {
+          "nomen": "HTCDS Excel Spreadsheet.xlsm",
+          "iri": "https://github.com/UNMigration/HTCDS/blob/master/Toolkit/Excel/HTCDS%20Excel%20Spreadsheet.xlsm"
+        },
+        {
+          "nomen": "htcds_xlsform.xlsx",
+          "iri": "https://github.com/UNMigration/HTCDS/blob/master/Toolkit/Survey/htcds_xlsform.xlsx"
+        }
+      ],
+      "schemam": {
+        "csv+hxl": [
+          {
+            "iri": "/hin-Deva/schemam/UN/HTCDS/HTCDS.csv"
+          }
+        ],
+        "json": [
+          {
+            "iri": "/hin-Deva/schemam/UN/HTCDS/HTCDS.json"
+          }
+        ],
+        "sql": [
+          {
+            "iri": "/hin-Deva/schemam/UN/HTCDS/sql/HTCDS.sql"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam-un-htcds.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/UN/HTCDS/HTCDS.🗣️.csv",
+        "objectivum": "/hin-Deva/schemam/UN/HTCDS/HTCDS.csv"
+      },
+      {
+        "fontem": "/schemam/UN/HTCDS/HTCDS.🗣️.json",
+        "objectivum": "/hin-Deva/schemam/UN/HTCDS/HTCDS.json"
+      },
+      {
+        "fontem": "/schemam/UN/HTCDS/sql/HTCDS.🗣️.sql",
+        "objectivum": "/hin-Deva/schemam/UN/HTCDS/sql/HTCDS.sql"
+      }
+    ],
+    "opus_in_progressu": true,
+    "experimentum_est": true
+  },
+  {
+    "uid": "/mul-Zyyy/schemam/XZ/ISO-639-3/",
+    "xdefallo": "/mul-Zyyy/schemam/XZ/ISO-639-3/",
+    "xdefallo_est": true,
+    "linguam": "mul-Zyyy",
+    "typum": "schemam",
+    "gid": "XZ",
+    "lid": "ISO-639-3",
+    "nomen": "<span >ISO 639-3</span>",
+    "summarius": "<span >Códigos para a representação de nomes de idiomas – Parte 3: códigos Alpha-3 para cobertura abrangente de idiomas</span>",
+    "slug_permanens": "ISO-639-3",
+    "slug_situs_interretialis": "ISO-639-3",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "http://iso639-3.sil.org/"
+        }
+      ],
+      "vicipaedia": [
+        {
+          "iri": "https://en.wikipedia.org/wiki/ISO_639-3"
+        }
+      ]
+    },
+    "wikidatum": [
+      {
+        "codicem": "Q845956"
+      }
+    ],
+    "archivum": {
+      "referens_officinale": [
+        {
+          "iri": "https://iso639-3.sil.org/code_tables/download_tables"
+        },
+        {
+          "iri": "https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3.tab"
+        }
+      ],
+      "schemam": {
+        "tm": [
+          {
+            "iri": "/data/tm/schemam.tm.hxl.csv"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "uid": "/por-Latn/esquema-de-dados/XZ/ISO-639-3/",
+    "xdefallo": "/mul-Zyyy/schemam/XZ/ISO-639-3/",
+    "xdefallo_est": false,
+    "linguam": "por-Latn",
+    "typum": "schemam",
+    "gid": "XZ",
+    "lid": "ISO-639-3",
+    "nomen": "ISO 639-3",
+    "titulum": "ISO 639-3: Códigos para a representação de nomes de idiomas – Parte 3: códigos Alpha-3 para cobertura abrangente de idiomas",
+    "slug_permanens": "ISO-639-3",
+    "slug_situs_interretialis": "iso-639-3-conjuntos-de-codigos-nomes-de-idiomas",
+    "summarius": "Códigos para a representação de nomes de idiomas – Parte 3: códigos Alpha-3 para cobertura abrangente de idiomas",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "http://iso639-3.sil.org/"
+        }
+      ],
+      "vicipaedia": [
+        {
+          "iri": "https://en.wikipedia.org/wiki/ISO_639-3"
+        }
+      ]
+    },
+    "wikidatum": [
+      {
+        "codicem": "Q845956"
+      }
+    ],
+    "archivum": {
+      "referens_officinale": [
+        {
+          "iri": "https://iso639-3.sil.org/code_tables/download_tables"
+        },
+        {
+          "iri": "https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3.tab"
+        }
+      ],
+      "schemam": {
+        "graphql": [
+          {
+            "iri": "/por-Latn/esquema-de-dados/XZ/ISO-639-3/ISO-639-3.sql"
+          }
+        ],
+        "json": [
+          {
+            "iri": "/por-Latn/esquema-de-dados/XZ/ISO-639-3/ISO-639-3.json"
+          },
+          {
+            "iri": "/por-Latn/esquema-de-dados/XZ/ISO-639-3/ISO-639-3_macrolanguages.json"
+          }
+        ],
+        "sql": [
+          {
+            "iri": "/por-Latn/esquema-de-dados/XZ/ISO-639-3/ISO-639-3.sql"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3.🗣️.json",
+        "objectivum": "/por-Latn/esquema-de-dados/XZ/ISO-639-3/ISO-639-3.json"
+      },
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3_macrolanguages.🗣️.json",
+        "objectivum": "/por-Latn/esquema-de-dados/XZ/ISO-639-3/ISO-639-3_macrolanguages.json"
+      },
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3.🗣️.sql",
+        "objectivum": "/por-Latn/esquema-de-dados/XZ/ISO-639-3/ISO-639-3.sql"
+      }
+    ]
+  },
+  {
+    "uid": "/eng-Latn/data-schema/XZ/ISO-639-3/",
+    "xdefallo": "/mul-Zyyy/schemam/XZ/ISO-639-3/",
+    "xdefallo_est": false,
+    "linguam": "eng-Latn",
+    "typum": "schemam",
+    "gid": "XZ",
+    "lid": "ISO-639-3",
+    "nomen": "ISO 639-3",
+    "titulum": "ISO 639-3: Codes for the representation of names of languages – Part 3: Alpha-3 code for comprehensive coverage of languages",
+    "slug_permanens": "ISO-639-3",
+    "slug_situs_interretialis": "iso-639-3-codes-for-the-representation-of-names-of-languages ",
+    "summarius": "Codes for the representation of names of languages – Part 3: Alpha-3 code for comprehensive coverage of languages",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "http://iso639-3.sil.org/"
+        }
+      ],
+      "vicipaedia": [
+        {
+          "iri": "https://en.wikipedia.org/wiki/ISO_639-3"
+        }
+      ]
+    },
+    "wikidatum": [
+      {
+        "codicem": "Q845956"
+      }
+    ],
+    "archivum": {
+      "referens_officinale": [
+        {
+          "iri": "https://iso639-3.sil.org/code_tables/download_tables"
+        },
+        {
+          "iri": "https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3.tab"
+        }
+      ],
+      "schemam": {
+        "graphql": [
+          {
+            "iri": "/eng-Latn/data-schema/XZ/ISO-639-3/ISO-639-3.sql"
+          }
+        ],
+        "json": [
+          {
+            "iri": "/eng-Latn/data-schema/XZ/ISO-639-3/ISO-639-3.json"
+          },
+          {
+            "iri": "/eng-Latn/data-schema/XZ/ISO-639-3/ISO-639-3_macrolanguages.json"
+          }
+        ],
+        "sql": [
+          {
+            "iri": "/eng-Latn/data-schema/XZ/ISO-639-3/ISO-639-3.sql"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3.🗣️.json",
+        "objectivum": "/eng-Latn/data-schema/XZ/ISO-639-3/ISO-639-3.json"
+      },
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3_macrolanguages.🗣️.json",
+        "objectivum": "/eng-Latn/data-schema/XZ/ISO-639-3/ISO-639-3_macrolanguages.json"
+      },
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3.🗣️.sql",
+        "objectivum": "/eng-Latn/data-schema/XZ/ISO-639-3/ISO-639-3.sql"
+      }
+    ]
+  },
+  {
+    "uid": "/arb-Arab/schemam/XZ/الأيزو-٣٦٩-٣/",
+    "xdefallo": "/mul-Zyyy/schemam/XZ/ISO-639-3/",
+    "xdefallo_est": false,
+    "linguam": "arb-Arab",
+    "typum": "schemam",
+    "gid": "XZ",
+    "lid": "الأيزو-٣٦٩-٣",
+    "nomen": "الأيزو ٣٦٩-٣",
+    "titulum": "الأيزو ٣٦٩-٣",
+    "slug_permanens": "الأيزو-٣٦٩-٣",
+    "slug_situs_interretialis": "الأيزو-٣٦٩-٣",
+    "summarius": "ISO_639-3_summarius",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "http://iso639-3.sil.org/"
+        }
+      ],
+      "vicipaedia": [
+        {
+          "iri": "https://en.wikipedia.org/wiki/ISO_639-3"
+        }
+      ]
+    },
+    "wikidatum": [
+      {
+        "codicem": "Q845956"
+      }
+    ],
+    "archivum": {
+      "referens_officinale": [
+        {
+          "iri": "https://iso639-3.sil.org/code_tables/download_tables"
+        },
+        {
+          "iri": "https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3.tab"
+        }
+      ],
+      "schemam": {
+        "graphql": [
+          {
+            "iri": "/arb-Arab/schemam/XZ/الأيزو-٣٦٩-٣/الأيزو-٣٦٩-٣.sql"
+          }
+        ],
+        "json": [
+          {
+            "iri": "/arb-Arab/schemam/XZ/الأيزو-٣٦٩-٣/الأيزو-٣٦٩-٣.json"
+          },
+          {
+            "iri": "/arb-Arab/schemam/XZ/الأيزو-٣٦٩-٣/الأيزو-٣٦٩-٣_macrolanguages.json"
+          }
+        ],
+        "sql": [
+          {
+            "iri": "/arb-Arab/schemam/XZ/الأيزو-٣٦٩-٣/الأيزو-٣٦٩-٣.sql"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3.🗣️.json",
+        "objectivum": "/arb-Arab/schemam/XZ/الأيزو-٣٦٩-٣/الأيزو-٣٦٩-٣.json"
+      },
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3_macrolanguages.🗣️.json",
+        "objectivum": "/arb-Arab/schemam/XZ/الأيزو-٣٦٩-٣/الأيزو-٣٦٩-٣_macrolanguages.json"
+      },
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3.🗣️.sql",
+        "objectivum": "/arb-Arab/schemam/XZ/الأيزو-٣٦٩-٣/الأيزو-٣٦٩-٣.sql"
+      }
+    ],
+    "experimentum_est": true
+  },
+  {
+    "uid": "/slv-Latn/schemam/XZ/ISO-639-3/",
+    "xdefallo": "/mul-Zyyy/schemam/XZ/ISO-639-3/",
+    "xdefallo_est": false,
+    "linguam": "slv-Latn",
+    "typum": "schemam",
+    "gid": "XZ",
+    "lid": "ISO-639-3",
+    "nomen": "ISO 639-3",
+    "titulum": "ISO 639-3",
+    "slug_permanens": "ISO-639-3",
+    "slug_situs_interretialis": "iso-639-3",
+    "summarius": "ISO_639-3_summarius",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "http://iso639-3.sil.org/"
+        }
+      ],
+      "vicipaedia": [
+        {
+          "iri": "https://en.wikipedia.org/wiki/ISO_639-3"
+        }
+      ]
+    },
+    "wikidatum": [
+      {
+        "codicem": "Q845956"
+      }
+    ],
+    "archivum": {
+      "referens_officinale": [
+        {
+          "iri": "https://iso639-3.sil.org/code_tables/download_tables"
+        },
+        {
+          "iri": "https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3.tab"
+        }
+      ],
+      "schemam": {
+        "graphql": [
+          {
+            "iri": "/slv-Latn/schemam/XZ/ISO-639-3/ISO-639-3.sql"
+          }
+        ],
+        "json": [
+          {
+            "iri": "/slv-Latn/schemam/XZ/ISO-639-3/ISO-639-3.json"
+          },
+          {
+            "iri": "/slv-Latn/schemam/XZ/ISO-639-3/ISO-639-3_macrolanguages.json"
+          }
+        ],
+        "sql": [
+          {
+            "iri": "/slv-Latn/schemam/XZ/ISO-639-3/ISO-639-3.sql"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3.🗣️.json",
+        "objectivum": "/slv-Latn/schemam/XZ/ISO-639-3/ISO-639-3.json"
+      },
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3_macrolanguages.🗣️.json",
+        "objectivum": "/slv-Latn/schemam/XZ/ISO-639-3/ISO-639-3_macrolanguages.json"
+      },
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3.🗣️.sql",
+        "objectivum": "/slv-Latn/schemam/XZ/ISO-639-3/ISO-639-3.sql"
+      }
+    ],
+    "experimentum_est": true
+  },
+  {
+    "uid": "/spa-Latn/esquema-de-datos/XZ/ISO-639-3/",
+    "xdefallo": "/mul-Zyyy/schemam/XZ/ISO-639-3/",
+    "xdefallo_est": false,
+    "linguam": "spa-Latn",
+    "typum": "schemam",
+    "gid": "XZ",
+    "lid": "ISO-639-3",
+    "nomen": "ISO 639-3",
+    "titulum": "ISO 639-3",
+    "slug_permanens": "ISO-639-3",
+    "slug_situs_interretialis": "iso-639-3",
+    "summarius": "ISO_639-3_summarius",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "http://iso639-3.sil.org/"
+        }
+      ],
+      "vicipaedia": [
+        {
+          "iri": "https://en.wikipedia.org/wiki/ISO_639-3"
+        }
+      ]
+    },
+    "wikidatum": [
+      {
+        "codicem": "Q845956"
+      }
+    ],
+    "archivum": {
+      "referens_officinale": [
+        {
+          "iri": "https://iso639-3.sil.org/code_tables/download_tables"
+        },
+        {
+          "iri": "https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3.tab"
+        }
+      ],
+      "schemam": {
+        "graphql": [
+          {
+            "iri": "/spa-Latn/esquema-de-datos/XZ/ISO-639-3/ISO-639-3.sql"
+          }
+        ],
+        "json": [
+          {
+            "iri": "/spa-Latn/esquema-de-datos/XZ/ISO-639-3/ISO-639-3.json"
+          },
+          {
+            "iri": "/spa-Latn/esquema-de-datos/XZ/ISO-639-3/ISO-639-3_macrolanguages.json"
+          }
+        ],
+        "sql": [
+          {
+            "iri": "/spa-Latn/esquema-de-datos/XZ/ISO-639-3/ISO-639-3.sql"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3.🗣️.json",
+        "objectivum": "/spa-Latn/esquema-de-datos/XZ/ISO-639-3/ISO-639-3.json"
+      },
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3_macrolanguages.🗣️.json",
+        "objectivum": "/spa-Latn/esquema-de-datos/XZ/ISO-639-3/ISO-639-3_macrolanguages.json"
+      },
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3.🗣️.sql",
+        "objectivum": "/spa-Latn/esquema-de-datos/XZ/ISO-639-3/ISO-639-3.sql"
+      }
+    ],
+    "experimentum_est": true
+  },
+  {
+    "uid": "/hin-Deva/schemam/XZ/ISO-639-3/",
+    "xdefallo": "/mul-Zyyy/schemam/XZ/ISO-639-3/",
+    "xdefallo_est": false,
+    "linguam": "hin-Deva",
+    "typum": "schemam",
+    "gid": "XZ",
+    "lid": "ISO-639-3",
+    "nomen": "ISO 639-3",
+    "titulum": "ISO 639-3",
+    "slug_permanens": "ISO-639-3",
+    "slug_situs_interretialis": "ISO-639-3",
+    "summarius": "ISO_639-3_summarius",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "http://iso639-3.sil.org/"
+        }
+      ],
+      "vicipaedia": [
+        {
+          "iri": "https://en.wikipedia.org/wiki/ISO_639-3"
+        }
+      ]
+    },
+    "wikidatum": [
+      {
+        "codicem": "Q845956"
+      }
+    ],
+    "archivum": {
+      "referens_officinale": [
+        {
+          "iri": "https://iso639-3.sil.org/code_tables/download_tables"
+        },
+        {
+          "iri": "https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3.tab"
+        }
+      ],
+      "schemam": {
+        "graphql": [
+          {
+            "iri": "/hin-Deva/schemam/XZ/ISO-639-3/ISO-639-3.sql"
+          }
+        ],
+        "json": [
+          {
+            "iri": "/hin-Deva/schemam/XZ/ISO-639-3/ISO-639-3.json"
+          },
+          {
+            "iri": "/hin-Deva/schemam/XZ/ISO-639-3/ISO-639-3_macrolanguages.json"
+          }
+        ],
+        "sql": [
+          {
+            "iri": "/hin-Deva/schemam/XZ/ISO-639-3/ISO-639-3.sql"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3.🗣️.json",
+        "objectivum": "/hin-Deva/schemam/XZ/ISO-639-3/ISO-639-3.json"
+      },
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3_macrolanguages.🗣️.json",
+        "objectivum": "/hin-Deva/schemam/XZ/ISO-639-3/ISO-639-3_macrolanguages.json"
+      },
+      {
+        "fontem": "/schemam/XZ/ISO-639-3/ISO-639-3.🗣️.sql",
+        "objectivum": "/hin-Deva/schemam/XZ/ISO-639-3/ISO-639-3.sql"
+      }
+    ],
+    "experimentum_est": true
+  },
+  {
+    "uid": "/mul-Zyyy/schemam/XZ/ISO-15924/",
+    "xdefallo": "/mul-Zyyy/schemam/XZ/ISO-15924/",
+    "xdefallo_est": 1,
+    "linguam": "mul-Zyyy",
+    "typum": "schemam",
+    "gid": "XZ",
+    "lid": "ISO-15924",
+    "lid_l10n": "ISO_15924_slug",
+    "nomen": "ISO_15924_nomen",
+    "titulum": "ISO_15924_titulum",
+    "slug_permanens": "ISO-15924",
+    "slug_situs_interretialis": "ISO-15924",
+    "summarius": "<span data-l10n-objectivum-linguam='und-Zyyy' class='incognitum-phrasim'>Códigos para a representação de nomes de sistemas de escrita</span>",
+    "summarius_l10n": "<span >Códigos para a representação de nomes de sistemas de escrita</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://www.unicode.org/iso15924/"
+        },
+        {
+          "iri": "https://www.iso.org/obp/ui/#iso:std:iso:15924:ed-1:v1:en",
+          "paywall": true
+        }
+      ],
+      "vicipaedia": [
+        {
+          "iri": "https://pt.wikipedia.org/wiki/ISO_15924",
+          "linguam": "por-Latn"
+        },
+        {
+          "iri": "https://en.wikipedia.org/wiki/ISO_15924",
+          "linguam": "eng-Latn"
+        }
+      ]
+    },
+    "wikidatum": [
+      {
+        "codicem": "Q16866"
+      }
+    ],
+    "archivum": {
+      "referens_officinale": [
+        {
+          "iri": "https://www.unicode.org/iso15924/iso15924.txt"
+        }
+      ],
+      "schemam": {
+        "json": [
+          {
+            "iri": "/schema/iso/iso15924/eng/iso15924.json"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "uid": "/por-Latn/esquema-de-dados/XZ/ISO-15924/",
+    "xdefallo": "/mul-Zyyy/schemam/XZ/ISO-15924/",
+    "linguam": "por-Latn",
+    "typum": "schemam",
+    "gid": "XZ",
+    "lid": "ISO-15924",
+    "nomen": "ISO 15924",
+    "titulum": "ISO 15924: Códigos para a representação de nomes de sistemas de escrita",
+    "slug_permanens": "ISO-15924",
+    "slug_situs_interretialis": "ISO-15924-codigos-sistemas-de-escrita",
+    "summarius": "<span data-l10n-objectivum-linguam='por-Latn'>Códigos para a representação de nomes de sistemas de escrita</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://www.unicode.org/iso15924/"
+        },
+        {
+          "iri": "https://www.iso.org/obp/ui/#iso:std:iso:15924:ed-1:v1:en",
+          "paywall": true
+        }
+      ],
+      "vicipaedia": [
+        {
+          "iri": "https://pt.wikipedia.org/wiki/ISO_15924",
+          "linguam": "por-Latn"
+        },
+        {
+          "iri": "https://en.wikipedia.org/wiki/ISO_15924",
+          "linguam": "eng-Latn"
+        }
+      ]
+    },
+    "wikidatum": [
+      {
+        "codicem": "Q16866"
+      }
+    ],
+    "archivum": {
+      "referens_officinale": [
+        {
+          "iri": "https://www.unicode.org/iso15924/iso15924.txt"
+        }
+      ],
+      "schemam": {
+        "json": [
+          {
+            "iri": "/por-Latn/esquema-de-dados/XZ/ISO-15924/ISO-15924.json"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/XZ/ISO-15924/ISO-15924.🗣️.json",
+        "objectivum": "/por-Latn/esquema-de-dados/XZ/ISO-15924/ISO-15924.json"
+      }
+    ]
+  },
+  {
+    "uid": "/eng-Latn/data-schema/XZ/ISO-15924/",
+    "xdefallo": "/mul-Zyyy/schemam/XZ/ISO-15924/",
+    "linguam": "eng-Latn",
+    "typum": "schemam",
+    "gid": "XZ",
+    "lid": "ISO-15924",
+    "nomen": "ISO 15924",
+    "titulum": "ISO 15924: Codes for the representation of names of writing systems",
+    "slug_permanens": "ISO-15924",
+    "slug_situs_interretialis": "ISO-15924-codes-writing-systems",
+    "summarius": "<span data-l10n-objectivum-linguam='eng-Latn'>ISO 15924: Codes for the representation of names of scripts</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://www.unicode.org/iso15924/"
+        },
+        {
+          "iri": "https://www.iso.org/obp/ui/#iso:std:iso:15924:ed-1:v1:en",
+          "paywall": true
+        }
+      ],
+      "vicipaedia": [
+        {
+          "iri": "https://pt.wikipedia.org/wiki/ISO_15924",
+          "linguam": "por-Latn"
+        },
+        {
+          "iri": "https://en.wikipedia.org/wiki/ISO_15924",
+          "linguam": "eng-Latn"
+        }
+      ]
+    },
+    "wikidatum": [
+      {
+        "codicem": "Q16866"
+      }
+    ],
+    "archivum": {
+      "referens_officinale": [
+        {
+          "iri": "https://www.unicode.org/iso15924/iso15924.txt"
+        }
+      ],
+      "schemam": {
+        "json": [
+          {
+            "iri": "/eng-Latn/data-schema/XZ/ISO-15924/ISO-15924.json"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/XZ/ISO-15924/ISO-15924.🗣️.json",
+        "objectivum": "/eng-Latn/data-schema/XZ/ISO-15924/ISO-15924.json"
+      }
+    ]
+  },
+  {
+    "uid": "/arb-Arab/schemam/XZ/الأيزو-١٥٩٢٤/",
+    "xdefallo": "/mul-Zyyy/schemam/XZ/ISO-15924/",
+    "linguam": "arb-Arab",
+    "typum": "schemam",
+    "gid": "XZ",
+    "lid": "الأيزو-١٥٩٢٤",
+    "nomen": "الأيزو ١٥٩٢٤",
+    "titulum": "الأيزو ١٥٩٢٤",
+    "slug_permanens": "الأيزو-١٥٩٢٤",
+    "slug_situs_interretialis": "الأيزو-١٥٩٢٤",
+    "summarius": "<span lang='ar' data-l10n-objectivum-linguam='arb-Arab' class='incognitum-phrasim'>Códigos para a representação de nomes de sistemas de escrita</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://www.unicode.org/iso15924/"
+        },
+        {
+          "iri": "https://www.iso.org/obp/ui/#iso:std:iso:15924:ed-1:v1:en",
+          "paywall": true
+        }
+      ],
+      "vicipaedia": [
+        {
+          "iri": "https://pt.wikipedia.org/wiki/ISO_15924",
+          "linguam": "por-Latn"
+        },
+        {
+          "iri": "https://en.wikipedia.org/wiki/ISO_15924",
+          "linguam": "eng-Latn"
+        }
+      ]
+    },
+    "wikidatum": [
+      {
+        "codicem": "Q16866"
+      }
+    ],
+    "archivum": {
+      "referens_officinale": [
+        {
+          "iri": "https://www.unicode.org/iso15924/iso15924.txt"
+        }
+      ],
+      "schemam": {
+        "json": [
+          {
+            "iri": "/arb-Arab/schemam/XZ/الأيزو-١٥٩٢٤/الأيزو-١٥٩٢٤.json"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/XZ/ISO-15924/ISO-15924.🗣️.json",
+        "objectivum": "/arb-Arab/schemam/XZ/الأيزو-١٥٩٢٤/الأيزو-١٥٩٢٤.json"
+      }
+    ],
+    "experimentum_est": true
+  },
+  {
+    "uid": "/slv-Latn/schemam/XZ/ISO_15924_slug/",
+    "xdefallo": "/mul-Zyyy/schemam/XZ/ISO-15924/",
+    "linguam": "slv-Latn",
+    "typum": "schemam",
+    "gid": "XZ",
+    "lid": "ISO_15924_slug",
+    "nomen": "ISO_15924_nomen",
+    "titulum": "ISO_15924_titulum",
+    "slug_permanens": "ISO_15924_slug",
+    "slug_situs_interretialis": "ISO_15924_situs_interretialis_slug",
+    "summarius": "<span lang='sl' data-l10n-objectivum-linguam='slv-Latn' class='incognitum-phrasim'>Códigos para a representação de nomes de sistemas de escrita</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://www.unicode.org/iso15924/"
+        },
+        {
+          "iri": "https://www.iso.org/obp/ui/#iso:std:iso:15924:ed-1:v1:en",
+          "paywall": true
+        }
+      ],
+      "vicipaedia": [
+        {
+          "iri": "https://pt.wikipedia.org/wiki/ISO_15924",
+          "linguam": "por-Latn"
+        },
+        {
+          "iri": "https://en.wikipedia.org/wiki/ISO_15924",
+          "linguam": "eng-Latn"
+        }
+      ]
+    },
+    "wikidatum": [
+      {
+        "codicem": "Q16866"
+      }
+    ],
+    "archivum": {
+      "referens_officinale": [
+        {
+          "iri": "https://www.unicode.org/iso15924/iso15924.txt"
+        }
+      ],
+      "schemam": {
+        "json": [
+          {
+            "iri": "/slv-Latn/schemam/XZ/ISO_15924_slug/ISO_15924_slug.json"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/XZ/ISO-15924/ISO-15924.🗣️.json",
+        "objectivum": "/slv-Latn/schemam/XZ/ISO_15924_slug/ISO_15924_slug.json"
+      }
+    ],
+    "experimentum_est": true
+  },
+  {
+    "uid": "/spa-Latn/esquema-de-datos/XZ/ISO-15924/",
+    "xdefallo": "/mul-Zyyy/schemam/XZ/ISO-15924/",
+    "linguam": "spa-Latn",
+    "typum": "schemam",
+    "gid": "XZ",
+    "lid": "ISO-15924",
+    "nomen": "ISO 15924",
+    "titulum": "ISO_15924_titulum",
+    "slug_permanens": "ISO-15924",
+    "slug_situs_interretialis": "iso-15924",
+    "summarius": "<span lang='es' data-l10n-objectivum-linguam='spa-Latn' class='incognitum-phrasim'>Códigos para a representação de nomes de sistemas de escrita</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://www.unicode.org/iso15924/"
+        },
+        {
+          "iri": "https://www.iso.org/obp/ui/#iso:std:iso:15924:ed-1:v1:en",
+          "paywall": true
+        }
+      ],
+      "vicipaedia": [
+        {
+          "iri": "https://pt.wikipedia.org/wiki/ISO_15924",
+          "linguam": "por-Latn"
+        },
+        {
+          "iri": "https://en.wikipedia.org/wiki/ISO_15924",
+          "linguam": "eng-Latn"
+        }
+      ]
+    },
+    "wikidatum": [
+      {
+        "codicem": "Q16866"
+      }
+    ],
+    "archivum": {
+      "referens_officinale": [
+        {
+          "iri": "https://www.unicode.org/iso15924/iso15924.txt"
+        }
+      ],
+      "schemam": {
+        "json": [
+          {
+            "iri": "/spa-Latn/esquema-de-datos/XZ/ISO-15924/ISO-15924.json"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/XZ/ISO-15924/ISO-15924.🗣️.json",
+        "objectivum": "/spa-Latn/esquema-de-datos/XZ/ISO-15924/ISO-15924.json"
+      }
+    ],
+    "experimentum_est": true
+  },
+  {
+    "uid": "/hin-Deva/schemam/XZ/ISO-15924/",
+    "xdefallo": "/mul-Zyyy/schemam/XZ/ISO-15924/",
+    "linguam": "hin-Deva",
+    "typum": "schemam",
+    "gid": "XZ",
+    "lid": "ISO-15924",
+    "nomen": "ISO 15924",
+    "titulum": "ISO_15924_titulum",
+    "slug_permanens": "ISO-15924",
+    "slug_situs_interretialis": "iso-15924",
+    "summarius": "<span lang='hi' data-l10n-objectivum-linguam='hin-Deva' class='incognitum-phrasim'>Códigos para a representação de nomes de sistemas de escrita</span>",
+    "situs_interretialis": {
+      "referens_officinale": [
+        {
+          "iri": "https://www.unicode.org/iso15924/"
+        },
+        {
+          "iri": "https://www.iso.org/obp/ui/#iso:std:iso:15924:ed-1:v1:en",
+          "paywall": true
+        }
+      ],
+      "vicipaedia": [
+        {
+          "iri": "https://pt.wikipedia.org/wiki/ISO_15924",
+          "linguam": "por-Latn"
+        },
+        {
+          "iri": "https://en.wikipedia.org/wiki/ISO_15924",
+          "linguam": "eng-Latn"
+        }
+      ]
+    },
+    "wikidatum": [
+      {
+        "codicem": "Q16866"
+      }
+    ],
+    "archivum": {
+      "referens_officinale": [
+        {
+          "iri": "https://www.unicode.org/iso15924/iso15924.txt"
+        }
+      ],
+      "schemam": {
+        "json": [
+          {
+            "iri": "/hin-Deva/schemam/XZ/ISO-15924/ISO-15924.json"
+          }
+        ],
+        "tm": [
+          {
+            "iri": "/data/tm/schemam.tm.hxl.csv"
+          }
+        ]
+      }
+    },
+    "__translationem": [
+      {
+        "fontem": "/schemam/XZ/ISO-15924/ISO-15924.🗣️.json",
+        "objectivum": "/hin-Deva/schemam/XZ/ISO-15924/ISO-15924.json"
+      }
+    ],
+    "experimentum_est": true
+  }
+]

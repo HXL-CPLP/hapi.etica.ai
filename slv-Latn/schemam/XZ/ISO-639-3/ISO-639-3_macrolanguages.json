@@ -1,0 +1,38 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://hapi.etica.ai/schema/iso/iso639-3/eng/iso639-3_macrolanguages.json",
+    "title": "ISO 639-3 Macrolanguage Mappings",
+    "description": "Códigos para a representação de nomes de idiomas – Parte 3: códigos Alpha-3 para cobertura abrangente de idiomas",
+    "$comment": "See https://iso639-3.sil.org/code_tables/download_tables \n https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3-macrolanguages.tab \n https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso639-3_macrolanguages_table_definition.txt",
+    "type": "object",
+    "required": [
+        "M_Id",
+        "I_Id",
+        "I_Status"
+    ],
+    "properties": {
+        "M_Id": {
+            "description": "O identificador ISO 639-3 para uma macrolíngua",
+            "type": "string",
+            "length": 3,
+            "example": ""
+        },
+        "I_Id": {
+            "description": "O identificador ISO 639-3 para um idioma individual que é membro da macrolíngua",
+            "type": "string",
+            "length": 3,
+            "example": ""
+        },
+        "I_Status": {
+            "description": "A (active) or R (retired) indicando o status do elemento de código individual",
+            "type": "string",
+            "length": 1,
+            "example": "",
+            "enum": [
+                "A",
+                "R",
+                "S"
+            ]
+        }
+    }
+}

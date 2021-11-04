@@ -1,0 +1,439 @@
+{
+  "api_gid": [
+    "UN",
+    "XZ",
+    "BR"
+  ],
+  "schema_gid": [
+    "XZ"
+  ],
+  "api": {
+    "defallo": {
+      "farmulam": {
+        "commendandum": {
+          "paginam_linguam": [
+            "por-Latn",
+            "eng-Latn"
+          ],
+          "paginam_linguam_experimentum": [
+            "slv-Latn"
+          ]
+        }
+      }
+    }
+  },
+  "schemam": {
+    "defallo": {
+      "farmulam": {
+        "commendandum": {
+          "paginam_linguam": [
+            "por-Latn",
+            "eng-Latn"
+          ],
+          "paginam_linguam_experimentum": [
+            "arb-Arab",
+            "slv-Latn",
+            "spa-Latn",
+            "hin-Deva"
+          ]
+        }
+      }
+    }
+  },
+  "gid": {
+    "UN": {
+      "gid": "UN",
+      "nomen": "🇺🇳 UN 🇺🇳",
+      "descriptionem": "<span >Espaço de nomes das Nações Unidas</span>",
+      "hashtag": {
+        "api": "api-UN",
+        "schema": "schema-UN"
+      }
+    },
+    "XZ": {
+      "gid": "XZ",
+      "nomen": "🌐 XZ 🌐",
+      "descriptionem": "<span >Espaço de nomes de águas internacionais (nenhum território ou multiplos territórios)</span>",
+      "hashtag": {
+        "api": "api-XZ",
+        "schema": "schema-XZ"
+      }
+    },
+    "BR": {
+      "gid": "BR",
+      "nomen": "🇧🇷 BR 🇧🇷",
+      "descriptionem": "<span >Espaço de nomes do Brasil</span>",
+      "hashtag": {
+        "api": "api-BR",
+        "schema": "schema-BR"
+      }
+    }
+  },
+  "hxl": {
+    "linguam": {
+      "hashtag": [
+        "#item+rem"
+      ],
+      "ignorandum": {
+        "hashtag": [
+          "#meta"
+        ],
+        "attributum": null
+      },
+      "referens": [
+        "#item+conceptum+codicem"
+      ]
+    }
+  },
+  "linguam": {
+    "arb-Arab": {
+      "BCP47": "ar",
+      "hxlattrs": [
+        "+i_ar+i_arb+is_arab",
+        "+i_arb+is_arab",
+        "+i_arb",
+        "+i_ar+i_ara+is_arab",
+        "+i_ara+is_arab",
+        "+i_ara",
+        "+i_ar"
+      ],
+      "hxl": {
+        "attributum": [
+          "+i_ar+i_arb+is_arab",
+          "+i_arb+is_arab",
+          "+i_arb",
+          "+i_ar+i_ara+is_arab",
+          "+i_ara+is_arab",
+          "+i_ara",
+          "+i_ar"
+        ]
+      }
+    },
+    "eng-Latn": {
+      "BCP47": "en",
+      "hxlattrs": [
+        "+i_en+i_eng+is_latn",
+        "+i_eng+is_latn",
+        "+i_eng",
+        "+i_en"
+      ],
+      "hxl": {
+        "attributum": [
+          "+i_en+i_eng+is_latn",
+          "+i_eng+is_latn",
+          "+i_eng",
+          "+i_en"
+        ]
+      }
+    },
+    "hin-Deva": {
+      "BCP47": "hi",
+      "hxlattrs": [
+        "+i_hi+i_hin+is_deva",
+        "+i_hin+is_deva",
+        "+i_hin",
+        "+i_hi"
+      ],
+      "hxl": {
+        "attributum": [
+          "+i_hi+i_hin+is_deva",
+          "+i_hin+is_deva",
+          "+i_hin",
+          "+i_hi"
+        ]
+      }
+    },
+    "ina-Latn": {
+      "BCP47": "ia",
+      "hxlattrs": [
+        "+i_ia+i_ina+is_latn",
+        "+i_ina+is_latn",
+        "+i_ina",
+        "+i_ia"
+      ],
+      "hxl": {
+        "attributum": [
+          "+i_ia+i_ina+is_latn",
+          "+i_ina+is_latn",
+          "+i_ina",
+          "+i_ia"
+        ]
+      },
+      "wikidata": "Q35934"
+    },
+    "lat-Latn": {
+      "BCP47": "la",
+      "hxlattrs": [
+        "+i_la+i_lat+is_latn",
+        "+i_lat+is_latn",
+        "+i_lat",
+        "+i_la"
+      ],
+      "hxl": {
+        "attributum": [
+          "+i_la+i_lat+is_latn",
+          "+i_lat+is_latn",
+          "+i_lat",
+          "+i_la"
+        ]
+      }
+    },
+    "mul-Zyyy": {
+      "BCP47": "mul",
+      "hxlattrs": [
+        "i_mul+is_zyyy",
+        "+i_mul"
+      ],
+      "hxl": [
+        "i_mul+is_zyyy",
+        "+i_mul"
+      ]
+    },
+    "mul": {
+      "BCP47": "mul",
+      "hxlattrs": [
+        "i_mul+is_zyyy",
+        "+i_mul"
+      ],
+      "hxl": [
+        "i_mul+is_zyyy",
+        "+i_mul"
+      ]
+    },
+    "slv-Latn": {
+      "BCP47": "sl",
+      "hxlattrs": [
+        "+i_sl+i_slv+is_latn",
+        "+i_slv+is_latn",
+        "+i_slv",
+        "+i_sl"
+      ],
+      "hxl": {
+        "attributum": [
+          "+i_sl+i_slv+is_latn",
+          "+i_slv+is_latn",
+          "+i_slv",
+          "+i_sl"
+        ]
+      }
+    },
+    "spa-Latn": {
+      "BCP47": "es",
+      "hxlattrs": [
+        "+i_es+i_spa+is_latn",
+        "+i_spa+is_latn",
+        "+i_spa",
+        "+i_es"
+      ],
+      "hxl": {
+        "attributum": [
+          "+i_es+i_spa+is_latn",
+          "+i_spa+is_latn",
+          "+i_spa",
+          "+i_es"
+        ]
+      }
+    },
+    "por-Latn": {
+      "BCP47": "pt",
+      "hxlattrs": [
+        "+i_pt+i_por+is_latn",
+        "+i_por+is_latn",
+        "+i_por",
+        "+i_pt"
+      ],
+      "hxl": {
+        "attributum": [
+          "+i_pt+i_por+is_latn",
+          "+i_por+is_latn",
+          "+i_por",
+          "+i_pt"
+        ]
+      }
+    },
+    "und-Zyyy": {
+      "BCP47": "",
+      "hxlattrs": [
+
+      ],
+      "hxl": {
+        "attributum": [
+
+        ]
+      }
+    }
+  },
+  "praeiudico": {
+    "iso3693": {
+      "ara": {
+        "iso15924": "Arab",
+        "iso6391": "ar",
+        "htmldir": "rtl"
+      },
+      "arb": {
+        "iso15924": "Arab",
+        "iso6391": "ar",
+        "htmldir": "rtl"
+      },
+      "hin": {
+        "iso15924": "Deva",
+        "iso6391": "hi",
+        "htmldir": "ltr"
+      },
+      "slv": {
+        "iso15924": "Latn",
+        "iso6391": "sl",
+        "htmldir": "ltr"
+      },
+      "spa": {
+        "iso15924": "Latn",
+        "iso6391": "es",
+        "htmldir": "ltr"
+      },
+      "eng": {
+        "iso15924": "Latn",
+        "iso6391": "en",
+        "htmldir": "ltr"
+      },
+      "por": {
+        "iso15924": "Latn",
+        "iso6391": "pt",
+        "htmldir": "ltr"
+      },
+      "lat": {
+        "iso15924": "Latn",
+        "iso6391": "la",
+        "htmldir": "ltr"
+      }
+    },
+    "iso3691": {
+      "ar": {
+        "iso15924": "Arab",
+        "iso6391": "ar",
+        "htmldir": "rtl"
+      },
+      "en": {
+        "iso15924": "Latn",
+        "iso6391": "en",
+        "htmldir": "ltr"
+      },
+      "es": {
+        "iso15924": "Latn",
+        "iso6391": "es",
+        "htmldir": "ltr"
+      },
+      "hi": {
+        "iso15924": "Deva",
+        "iso6391": "hi",
+        "htmldir": "ltr"
+      },
+      "sl": {
+        "iso15924": "Latn",
+        "iso6391": "sl",
+        "htmldir": "ltr"
+      }
+    }
+  },
+  "alternandum": {
+    "Arab": [
+
+    ],
+    "Cyrl": [
+
+    ],
+    "Hans": [
+
+    ],
+    "Hant": [
+
+    ],
+    "Latn": [
+      {
+        "BCP47": "ia",
+        "hxlattrs": [
+          "+i_ia+i_ina+is_latn",
+          "+i_ina+is_latn",
+          "+i_ina",
+          "+i_ia"
+        ],
+        "hxl": {
+          "attributum": [
+            "+i_ia+i_ina+is_latn",
+            "+i_ina+is_latn",
+            "+i_ina",
+            "+i_ia"
+          ]
+        },
+        "wikidata": "Q35934"
+      },
+      {
+        "BCP47": "la",
+        "hxlattrs": [
+          "+i_la+i_lat+is_latn",
+          "+i_lat+is_latn",
+          "+i_lat",
+          "+i_la"
+        ],
+        "hxl": {
+          "attributum": [
+            "+i_la+i_lat+is_latn",
+            "+i_lat+is_latn",
+            "+i_lat",
+            "+i_la"
+          ]
+        }
+      },
+      {
+        "BCP47": "es",
+        "hxlattrs": [
+          "+i_es+i_spa+is_latn",
+          "+i_spa+is_latn",
+          "+i_spa",
+          "+i_es"
+        ],
+        "hxl": {
+          "attributum": [
+            "+i_es+i_spa+is_latn",
+            "+i_spa+is_latn",
+            "+i_spa",
+            "+i_es"
+          ]
+        }
+      },
+      {
+        "BCP47": "pt",
+        "hxlattrs": [
+          "+i_pt+i_por+is_latn",
+          "+i_por+is_latn",
+          "+i_por",
+          "+i_pt"
+        ],
+        "hxl": {
+          "attributum": [
+            "+i_pt+i_por+is_latn",
+            "+i_por+is_latn",
+            "+i_por",
+            "+i_pt"
+          ]
+        }
+      },
+      {
+        "BCP47": "en",
+        "hxlattrs": [
+          "+i_en+i_eng+is_latn",
+          "+i_eng+is_latn",
+          "+i_eng",
+          "+i_en"
+        ],
+        "hxl": {
+          "attributum": [
+            "+i_en+i_eng+is_latn",
+            "+i_eng+is_latn",
+            "+i_eng",
+            "+i_en"
+          ]
+        }
+      }
+    ]
+  }
+}

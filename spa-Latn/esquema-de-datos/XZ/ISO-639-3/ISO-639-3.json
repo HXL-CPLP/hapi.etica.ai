@@ -1,0 +1,76 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://hapi.etica.ai/spa-Latn/esquema-de-datos/XZ/ISO-639-3/ISO-639-3.json",
+    "title": "ISO 639-3",
+    "description": "Códigos para a representação de nomes de idiomas – Parte 3: códigos Alpha-3 para cobertura abrangente de idiomas",
+    "$comment": "See https://iso639-3.sil.org/code_tables/download_tables \n https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3.tab \n https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso639-3_table_definition.txt",
+    "type": "object",
+    "required": [
+        "Id",
+        "Scope",
+        "Type",
+        "Ref_Name"
+    ],
+    "properties": {
+        "Id": {
+            "description": "O identificador ISO 639-3 de três letras",
+            "type": "string",
+            "length": 3,
+            "example": "spa"
+        },
+        "Part2B": {
+            "description": "Identificador equivalente ISO 639-2 do conjunto de códigos de aplicativos bibliográficos, se houver",
+            "type": "string",
+            "length": 3,
+            "example": "spa"
+        },
+        "Part2T": {
+            "description": "Identificador equivalente ISO 639-2 do conjunto de códigos de aplicativos de terminologia, se houver um",
+            "type": "string",
+            "length": 3,
+            "example": "spa"
+        },
+        "Part1": {
+            "description": "Identificador ISO 639-1 equivalente, se houver",
+            "type": "string",
+            "length": 2,
+            "example": "es"
+        },
+        "Scope": {
+            "description": "I: Individual; M: Macrolíngua; S: Especial",
+            "type": "string",
+            "length": 1,
+            "enum": [
+                "I",
+                "M",
+                "S"
+            ],
+            "example": "I"
+        },
+        "Type": {
+            "description": "A: Antiga; C: Construída (língua artificial, planejada); E: Extinta; L: Língua viva; S: Especial",
+            "type": "string",
+            "length": 1,
+            "enum": [
+                "A",
+                "C",
+                "E",
+                "H",
+                "L",
+                "S"
+            ],
+            "example": "L"
+        },
+        "Ref_Name": {
+            "description": "Nome no idioma de referência (provavelmente língua inglesa ou língua francesa e no sistema de escrita alfabeto latino)",
+            "type": "string",
+            "maxLengh": 150
+        },
+        "Comment": {
+            "description": "Comentário relacionado a uma ou mais colunas",
+            "type": "string",
+            "maxLengh": 150,
+            "example": "Spanish"
+        }
+    }
+}

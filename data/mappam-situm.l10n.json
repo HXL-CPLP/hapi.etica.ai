@@ -1,0 +1,100 @@
+{
+  "nav": [
+    {
+      "nomen": "🇺🇳 UN 🇺🇳",
+      "url": "#",
+      "descendens": [
+        {
+          "nomen": "<span >HDX - Intercâmbio de Dados Humanitários</span>",
+          "linguam": "por-Latn",
+          "url": "/por-Latn/api/UN/<span >humanitarian-data-exchange</span>/"
+        },
+        {
+          "nomen": "<span >ReliefWeb - Informando humanitários em todo o mundo</span>",
+          "linguam": "por-Latn",
+          "url": "/por-Latn/api/UN/reliefweb/"
+        },
+        {
+          "nomen": "<span >COD API versão 2</span>",
+          "linguam": "por-Latn",
+          "url": "/por-Latn/api/UN/common-operational-datasets-api/"
+        },
+        {
+          "nomen": "<span lang=\"en\" dir=\"ltr\">UNSD SDG API</span>",
+          "debile": true
+        }
+      ]
+    },
+    {
+      "nomen": "🌐 XZ 🌐",
+      "url": "#",
+      "descendens": [
+        {
+          "nomen": "<span >HDX - Intercâmbio de Dados Humanitários</span>",
+          "linguam": "por-Latn",
+          "url": "/por-Latn/api/XZ/humanitarian-data-exchange/"
+        },
+        {
+          "nomen": "<span lang=\"en\" dir=\"ltr\">Worldbank</span>",
+          "debile": true
+        }
+      ]
+    }
+  ],
+  "grupum": {
+    "api": [
+      {
+        "nomen": "🇺🇳 UN 🇺🇳",
+        "url": "#",
+        "descendens": [
+          {
+            "nomen": "<span >HDX - Intercâmbio de Dados Humanitários</span>",
+            "linguam": "por-Latn",
+            "url": "/por-Latn/api/UN/<span >humanitarian-data-exchange</span>/"
+          },
+          {
+            "nomen": "<span >ReliefWeb - Informando humanitários em todo o mundo</span>",
+            "linguam": "por-Latn",
+            "url": "/por-Latn/api/UN/reliefweb/"
+          },
+          {
+            "nomen": "<span >COD API versão 2</span>",
+            "linguam": "por-Latn",
+            "url": "/por-Latn/api/UN/common-operational-datasets-api/"
+          },
+          {
+            "nomen": "<span lang=\"en\" dir=\"ltr\">UNSD SDG API</span>",
+            "debile": true
+          }
+        ]
+      },
+      {
+        "nomen": "🌐 XZ 🌐",
+        "url": "#",
+        "descendens": [
+          {
+            "nomen": "<span >HDX - Intercâmbio de Dados Humanitários</span>",
+            "linguam": "por-Latn",
+            "url": "/por-Latn/api/XZ/humanitarian-data-exchange/"
+          },
+          {
+            "nomen": "<span lang=\"en\" dir=\"ltr\">Worldbank</span>",
+            "debile": true
+          }
+        ]
+      }
+    ],
+    "categoriam": {
+      "aevum": {
+        "codicem": "{}",
+        "codicem2": "\n\n    {}\n\n\nHDX - Intercâmbio de Dados Humanitários\n"
+      }
+    },
+    "pittacium": {
+      "aevum": {
+        "codicem": "{}",
+        "codicem2": "aaaa"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://hapi.etica.ai/eng-Latn/data-schema/XZ/ISO-15924/ISO-15924.json",
+    "title": "ISO 15924",
+    "description": "ISO 15924: Codes for the representation of names of scripts",
+    "$comment": "https://www.unicode.org/iso15924/codelists.html, https://www.unicode.org/iso15924/iso15924.txt",
+    "type": "object",
+    "properties": {
+        "Code": {
+            "description": "The 4 bytes Basic Latin (Unicode block) code for the ISO 15924 identifier",
+            "type": "string",
+            "length": 4,
+            "example": "Latn"
+        },
+        "Nº": {
+            "description": "The writing system neutral identifier code for ISO 15924 using 3 digit decimal-radix numbers",
+            "type": "string",
+            "length": 3,
+            "example": "160"
+        },
+        "English Name": {
+            "description": "English name of the ISO 15924 identifier",
+            "type": "string",
+            "example": "Latin",
+            "$comment": "_[eng-Latn]TODO: investigate maximum length[eng-Latn]_"
+        },
+        "Nom français": {
+            "description": "French name of the ISO 15924 identifier",
+            "type": "string",
+            "example": "latin",
+            "$comment": "_[eng-Latn]TODO: investigate maximum length[eng-Latn]_"
+        },
+        "PVA": {
+            "description": "The Property Value Alias is defined as part of the Unicode Standard and is provided informatively in the tables here to show how entries in the ISO 15924 code table relate to script names defined in Unicode",
+            "type": "string",
+            "example": "Latin",
+            "$comment": "_[eng-Latn]TODO: investigate maximum length[eng-Latn]_"
+        },
+        "Unicode Version": {
+            "description": "The unicode version the ISO 15924 identifier was added",
+            "example": "1.1",
+            "type": "number"
+        },
+        "Date": {
+            "description": "The date the ISO 15924 identifier was added",
+            "type": "string",
+            "format": "date",
+            "example": "2004-05-01"
+        }
+    }
+}

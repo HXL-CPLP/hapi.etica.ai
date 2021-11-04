@@ -1,0 +1,74 @@
+# FILE:            api/UN/HDX/eng/openapi.yaml
+# LICENSE:         Unlicense
+#
+# ONLINE VERSION:  https://editor.swagger.io/?url=https://hapi.etica.ai/api/UN/HDX/eng/openapi.yaml
+#
+# README FIRST!:   This file uses OpenAPI syntax (https://www.openapis.org/),
+#                  a de facto non-proprietary industry standard to document
+#                  APIs.
+#                  Consider as starting point:
+#                    - Use this online editor https://editor.swagger.io/
+#                    - Check this https://openapi.tools/ for compatible tools
+
+openapi: 3.0.3
+# NOTE: the current file, as 2021-05-01, uses OpenAPI 3.0 because 3.1 still too
+#       new (released 2021-02-15). But some comments already consider future
+#       upgrade.
+# @see https://spec.openapis.org/oas/v3.0.3
+# @see https://spec.openapis.org/oas/v3.1.0
+
+info:
+  title: The Humanitarian Data Exchange API CKAN documentation (English version)
+  description: "TODO: add description"
+  version: "3" # 3 because CKAN uses 3, see https://docs.ckan.org/en/2.9/api/
+  termsOfService: https://data.humdata.org/about/terms
+  license:
+    name: Several license types
+    url: https://data.humdata.org/about/license
+  contact:
+    name: Centre for Humanitarian Data
+    url: https://centre.humdata.org/contact-us/
+    email: hdx@un.org
+  # NOTE: The 'info:'' group is based on HDX website. The "Unofficial" is
+  #       added to avoid confusion individuals contributing via HXL-CPLP, an
+  #       HXL regional user group, be part of HDX.
+  #       The close to "official" documentation is likely to be:
+  #         - https://docs.ckan.org/en/latest/api/index.html
+  #         - https://data.humdata.org/faq
+  #       The "English version" on title is because one idea of HXL-CPLP is
+  #       eventually encourage localized translations.
+
+servers:
+  - url: https://data.humdata.org/api/3/action
+    description: HDX Production server
+
+tags:
+  - name: "List and search"
+    description: |
+      Search an list collections
+
+  - name: "Details"
+    description: |
+      Details about an item
+
+paths:
+  /package_list:
+    $ref: "../../../../schema/api/ckan/eng/ckan-openapi.yaml#/operationem/package_list"
+
+  /package_search:
+    $ref: "../../../../schema/api/ckan/eng/ckan-openapi.yaml#/operationem/package_search"
+
+  /vocabulary_list:
+    $ref: "../../../../schema/api/ckan/eng/ckan-openapi.yaml#/operationem/vocabulary_list"
+
+  /package_show:
+    $ref: "../../../../schema/api/ckan/eng/ckan-openapi.yaml#/operationem/package_show"
+
+  /resource_show:
+    $ref: "../../../../schema/api/ckan/eng/ckan-openapi.yaml#/operationem/resource_show"
+
+  /vocabulary_show:
+    $ref: "../../../../schema/api/ckan/eng/ckan-openapi.yaml#/operationem/vocabulary_show"
+
+  /tag_show:
+    $ref: "../../../../schema/api/ckan/eng/ckan-openapi.yaml#/operationem/tag_show"

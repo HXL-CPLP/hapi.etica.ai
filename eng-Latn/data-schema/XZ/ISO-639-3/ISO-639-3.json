@@ -1,0 +1,76 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://hapi.etica.ai/eng-Latn/data-schema/XZ/ISO-639-3/ISO-639-3.json",
+    "title": "ISO 639-3",
+    "description": "Codes for the representation of names of languages – Part 3: Alpha-3 code for comprehensive coverage of languages",
+    "$comment": "See https://iso639-3.sil.org/code_tables/download_tables \n https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3.tab \n https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso639-3_table_definition.txt",
+    "type": "object",
+    "required": [
+        "Id",
+        "Scope",
+        "Type",
+        "Ref_Name"
+    ],
+    "properties": {
+        "Id": {
+            "description": "The three-letter ISO 639-3 identifier",
+            "type": "string",
+            "length": 3,
+            "example": "eng"
+        },
+        "Part2B": {
+            "description": "Equivalent ISO 639-2 identifier of the bibliographic applications code set, if there is one",
+            "type": "string",
+            "length": 3,
+            "example": "eng"
+        },
+        "Part2T": {
+            "description": "Equivalent ISO 639-2 identifier of the terminology applications code set, if there is one",
+            "type": "string",
+            "length": 3,
+            "example": "eng"
+        },
+        "Part1": {
+            "description": "Equivalent ISO 639-1 identifier, if there is one",
+            "type": "string",
+            "length": 2,
+            "example": "en"
+        },
+        "Scope": {
+            "description": "I(ndividual), M(acrolanguage), S(pecial)",
+            "type": "string",
+            "length": 1,
+            "enum": [
+                "I",
+                "M",
+                "S"
+            ],
+            "example": "I"
+        },
+        "Type": {
+            "description": "A(ncient), C(onstructed), E(xtinct), H(istorical), L(iving), S(pecial)",
+            "type": "string",
+            "length": 1,
+            "enum": [
+                "A",
+                "C",
+                "E",
+                "H",
+                "L",
+                "S"
+            ],
+            "example": "L"
+        },
+        "Ref_Name": {
+            "description": "Name in the reference language (probably English or French and in the Latin script)",
+            "type": "string",
+            "maxLengh": 150
+        },
+        "Comment": {
+            "description": "Comment relating to one or more of the columns",
+            "type": "string",
+            "maxLengh": 150,
+            "example": "English"
+        }
+    }
+}

@@ -1,0 +1,234 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://hapi.etica.ai/eng-Latn/data-schema/UN/HTCDS/HTCDS.json",
+    "title": "Human Trafficking Case Data Standard (v0.2)",
+    "description": "Human Trafficking Case Data Standard",
+    "$comment": "https://github.com/UNMigration/HTCDS",
+    "type": "object",
+    "required": [],
+    "properties": {
+        "cas_CaseOwner": {
+            "description": "Case Owner",
+            "type": "string"
+        },
+        "prs_Salutation": {
+            "description": "Salutation",
+            "type": "string"
+        },
+        "prs_FirstName": {
+            "description": "First Name",
+            "type": "string"
+        },
+        "prs_SecondName": {
+            "description": "Second Name",
+            "type": "string"
+        },
+        "prs_Birthdate": {
+            "description": "Birthdate",
+            "type": "string"
+        },
+        "prs_Gender": {
+            "description": "Gender",
+            "type": "string",
+            "enum": [
+                "Male",
+                "Female",
+                "Transgender/NonConforming",
+                "Unknown"
+            ],
+            "$comment": "(enum) 🚧 Work in progress 🚧 (enum)"
+        },
+        "prs_Nationality": {
+            "description": "Nationality",
+            "type": "string"
+        },
+        "prs_Title": {
+            "description": "Title",
+            "type": "string"
+        },
+        "prs_Email": {
+            "description": "Email",
+            "type": "string",
+            "format": "email"
+        },
+        "prs_HomePhone": {
+            "description": "Home Phone",
+            "type": "string"
+        },
+        "prs_MobilePhone": {
+            "description": "Mobile Phone",
+            "type": "string"
+        },
+        "prs_MailingCity": {
+            "description": "Mailing City",
+            "type": "string"
+        },
+        "prs_MailingCountry": {
+            "description": "Mailing Country",
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 2
+        },
+        "prs_MailingState": {
+            "description": "Mailing State/Province",
+            "type": "string"
+        },
+        "prs_MailingStreet": {
+            "description": "Mailing Street",
+            "type": "string"
+        },
+        "prs_MailingPostalCode": {
+            "description": "Mailing Zip/Postal Code",
+            "type": "string"
+        },
+        "vic_MethodOfRecruitment": {
+            "description": "Method of Recruitment",
+            "type": "string",
+            "enum": [
+                "Internet (social media, online advertisement)",
+                "Educational Facility",
+                "Public Area",
+                "Shelter",
+                "Work",
+                "Unknown"
+            ],
+            "$comment": "(enum) 🚧 Work in progress 🚧 (enum)"
+        },
+        "vic_LocationOfRecruitment": {
+            "description": "Location of Recruitment",
+            "type": "string"
+        },
+        "vic_MethodsOfControl": {
+            "description": "Methods of Control",
+            "type": "string",
+            "enum": [
+                "Physical threats",
+                "Threats of law enforcement",
+                "Threatens children/family",
+                "Debt bondage",
+                "False promises",
+                "Physical abuse",
+                "Sexual abuse",
+                "Takes earnings",
+                "Restricts financial access",
+                "Restricts medical care",
+                "Withholds necessities",
+                "Psychological abuse",
+                "Psychoactive substance",
+                "Excessive working hours",
+                "Withholds documents",
+                "Other"
+            ],
+            "$comment": "(enum) 🚧 Work in progress 🚧 (enum)"
+        },
+        "vic_TypeOfExploitation": {
+            "description": "Type of Exploitation",
+            "type": "string",
+            "enum": [
+                "Forced labour",
+                "Sexual exploitation",
+                "Forced marriage",
+                "Forced military service",
+                "Organ removal",
+                "Forced begging",
+                "Illicit activities",
+                "Illegal adoption",
+                "Surrogacy",
+                "Other"
+            ],
+            "$comment": "(enum) 🚧 Work in progress 🚧 (enum)"
+        },
+        "vic_ForcedLabourIndustry": {
+            "description": "Forced Labour Industry",
+            "type": "string",
+            "enum": [
+                "Agriculture, forestry and fishing",
+                "Mining and quarrying",
+                "Manufacturing",
+                "Electricity, gas, steam and air conditioning supply",
+                "Water supply; sewerage, waste management and remediation",
+                "Construction",
+                "Wholesale and retail trade; repair of motor vehicles and motorcycles",
+                "Transportation and storage",
+                "Accommodation and food service activities",
+                "Information and communication",
+                "Financial and insurance activities",
+                "Real estate activities",
+                "Professional, scientific and technical activities",
+                "Administrative and support service activities",
+                "Public administration and defence; compulsory social security",
+                "Education",
+                "Human health and social work activities",
+                "Arts, entertainment and recreation",
+                "Other service activities",
+                "Activities of households as employers; undifferentiated goods- and services- producing activities of households for own use",
+                "Activities of extraterritorial organizations and bodies"
+            ],
+            "$comment": "(enum) 🚧 Work in progress 🚧 (enum)"
+        },
+        "vic_TypeOfSexExploitation": {
+            "description": "Type of Sex Exploitation",
+            "type": "string"
+        },
+        "vic_LocationOfExploitation": {
+            "description": "Location of Exploitation",
+            "type": "string"
+        },
+        "vic_Vulnerabilities": {
+            "description": "Vulnerabilities",
+            "type": "string"
+        },
+        "vic_DetailsOfVulnerabilities": {
+            "description": "Details Of Vulnerabilities",
+            "type": "string"
+        },
+        "cas_Status": {
+            "description": "Status",
+            "type": "string"
+        },
+        "cas_ReferringOrganisation": {
+            "description": "Referring Organisation",
+            "type": "string"
+        },
+        "cas_IncomingReferralDate": {
+            "description": "Incoming Referral Date",
+            "type": "string"
+        },
+        "cas_ReferringPrimaryCaseWorker": {
+            "description": "Referring Primary Case Worker",
+            "type": "string"
+        },
+        "cas_ReasonForIncomingReferral": {
+            "description": "Reason for Incoming Referral",
+            "type": "string"
+        },
+        "cas_IncomingReferralDetails": {
+            "description": "Incoming Referral Details",
+            "type": "string"
+        },
+        "cas_ReferredOrganisation": {
+            "description": "Referred Organisation",
+            "type": "string"
+        },
+        "cas_ReferredPrimaryCaseWorker": {
+            "description": "Referred Primary Case Worker",
+            "type": "string"
+        },
+        "cas_ReasonForOutgoingReferral": {
+            "description": "Reason for Outgoing Referral",
+            "type": "string"
+        },
+        "cas_OutgoingReferralDate": {
+            "description": "Outgoing Referral Date",
+            "type": "string"
+        },
+        "cas_OutgoingReferralDetails": {
+            "description": "Outgoing Referral Details",
+            "type": "string"
+        },
+        "cas_ReasonForCaseClosure": {
+            "description": "Reason for Case Closure",
+            "type": "string"
+        }
+    }
+}

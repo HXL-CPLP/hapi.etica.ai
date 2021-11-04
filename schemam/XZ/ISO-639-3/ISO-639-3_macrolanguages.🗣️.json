@@ -1,0 +1,38 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://hapi.etica.ai/schema/iso/iso639-3/eng/iso639-3_macrolanguages.json",
+    "title": "ISO 639-3 Macrolanguage Mappings",
+    "description": "{% _🗣️ ISO_639-3_summarius 🗣️_ %}",
+    "$comment": "See https://iso639-3.sil.org/code_tables/download_tables \n https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3-macrolanguages.tab \n https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso639-3_macrolanguages_table_definition.txt",
+    "type": "object",
+    "required": [
+        "M_Id",
+        "I_Id",
+        "I_Status"
+    ],
+    "properties": {
+        "M_Id": {
+            "description": "{% _🗣️ ISO_639-3_optionem_M_Id_summarius 🗣️_ %}",
+            "type": "string",
+            "length": 3,
+            "example": "{% _🗣️ ISO_639-3_optionem_M_Id_exemplum 🗣️_ %}"
+        },
+        "I_Id": {
+            "description": "{% _🗣️ ISO_639-3_optionem_I_Id_summarius 🗣️_ %}",
+            "type": "string",
+            "length": 3,
+            "example": "{% _🗣️ ISO_639-3_optionem_I_Id_exemplum 🗣️_ %}"
+        },
+        "I_Status": {
+            "description": "{% _🗣️ ISO_639-3_optionem_I_Status_summarius 🗣️_ %}",
+            "type": "string",
+            "length": 1,
+            "example": "{% _🗣️ ISO_639-3_optionem_I_Status_exemplum 🗣️_ %}",
+            "enum": [
+                "A",
+                "R",
+                "S"
+            ]
+        }
+    }
+}

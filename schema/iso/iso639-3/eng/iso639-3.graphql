@@ -1,0 +1,162 @@
+# Status: working-draft (2021-05-09)
+
+type Query {
+  XZ_ISO_639_3: [XZ_ISO_639_3]
+  XZ_ISO_639_3_macrolanguage: [XZ_ISO_639_3_macrolanguage]
+}
+
+# # What is ISO 639-3?
+#
+# ISO 639-3 is a set of codes that defines three-letter identifiers for all
+# known human languages. At the core of ISO 639-3 are the individual
+# languages already accounted for in ISO 639-2. The large number of living
+# languages in the initial inventory of ISO 639-3 beyond those already
+# included in ISO 639-2 was derived primarily from Ethnologue (15th edition).
+# Additional extinct, ancient, historic, and constructed languages were
+# obtained from the Linguist List.
+#
+# See <https://iso639-3.sil.org/>
+#
+# # What is XZ_ISO_639_3 ?
+# Is an implementation of ISO 639-3 on GraphQL done by community volunteers
+# initially cooordinated by HXL-CPLP (<https://hxl.etica.ai>).
+#
+# This specific interface is based on the database dump of ISO_639-3 from
+# https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso639-3_table_definition.txt
+# on 2021-05-09.
+#
+# # Usage of these schemas
+# The volunteers of HXL-CPLP dedicate it's work to public domain.
+#
+# Check with ISO 639-3 Registration Authority, SIL International,
+# Additional license and terms of use.
+interface XZ_ISO_639_3 {
+  # The three-letter 639-3 identifier
+  Id: Id!
+
+  # Equivalent 639-2 identifier of the bibliographic applications
+  # code set, if there is one
+  Part2B: Part2B
+
+  # Equivalent 639-2 identifier of the terminology applications code
+  # set, if there is one
+  Part2T: Part2T
+
+  # Equivalent 639-1 identifier, if there is one
+  Part1: Part1
+
+  # I(ndividual), M(acrolanguage), S(pecial)
+  Scope: Scope!
+
+  # A(ncient), C(onstructed), E(xtinct), H(istorical), L(iving), S(pecial)
+  Type: Type!
+
+  # Reference language name
+  Ref_Name: Ref_Name!
+
+  # Comment relating to one or more of the columns
+  Comment: Comment
+}
+
+# # What is XZ_ISO_639_3 ?
+# Is an implementation of ISO 639-3 on GraphQL done by community volunteers
+# initially cooordinated by HXL-CPLP (<https://hxl.etica.ai>).
+#
+# This specific interface is based on the database dump of
+# ISO_639-3_Macrolanguages from
+# <https://iso639-3.sil.org/code_tables/download_tables> on 2021-05-09.
+#
+interface XZ_ISO_639_3_macrolanguage {
+  # The identifier for a macrolanguage
+  M_Id: M_Id!
+
+  # The identifier for an individual language that is a member of the
+  # macrolanguage
+  I_Id: I_Id!
+
+  # A (active) or R (retired) indicating the status of the individual
+  # code element
+  I_Status: I_Status!
+}
+
+type Comment {
+  description: String
+  type: String
+  maxLengh: Int
+}
+
+type Ref_Name {
+  description: String
+  type: String
+  maxLengh: Int
+}
+
+type Type {
+  description: String
+  type: String
+  length: Int
+  enum: [String]
+}
+
+type Scope {
+  description: String
+  type: String
+  length: Int
+  enum: [String]
+}
+
+type Part1 {
+  description: String
+  type: String
+  length: Int
+  example: String
+}
+
+type Part2T {
+  description: String
+  type: String
+  length: Int
+  example: String
+}
+
+type Part2B {
+  description: String
+  type: String
+  length: Int
+  example: String
+}
+
+type Id {
+  description: String
+  type: String
+  length: Int
+  example: String
+}
+
+type M_Id {
+  description: String
+  type: String
+  length: Int
+  example: String
+}
+
+type I_Id {
+  description: String
+  type: String
+  length: Int
+  example: String
+}
+
+type I_Status {
+  description: String
+  type: String
+  length: Int
+  example: String
+}
+
+
+
+# Types with identical fields:
+# Comment RefName
+# Type Scope
+# Part1 Part2T Part2B Id

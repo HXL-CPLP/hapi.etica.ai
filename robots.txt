@@ -1,0 +1,15 @@
+User-agent: *
+
+# Prefer html files over markdown ones
+Disallow: *.md
+
+## openapi-generator-cli, Disallow a few verbose pages
+Disallow: /api/*/*/*/html
+Disallow: /api/*/*/*/html2
+
+## _[eng-Latn] Schema source files [eng-Latn]_
+Disallow: /schemam/
+
+
+
+Sitemap: https://hapi.etica.ai/sitemap.xml

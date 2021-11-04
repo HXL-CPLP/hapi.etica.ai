@@ -1,0 +1,234 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://hapi.etica.ai/arb-Arab/schemam/UN/HTCDS/HTCDS.json",
+    "title": "Padrão de Dados de Casos de Tráfico Humano (v0.2)",
+    "description": "Padrão de Dados de Casos de Tráfico Humano",
+    "$comment": "https://github.com/UNMigration/HTCDS",
+    "type": "object",
+    "required": [],
+    "properties": {
+        "cas_CaseOwner": {
+            "description": "Responsável do Caso",
+            "type": "string"
+        },
+        "prs_Salutation": {
+            "description": "Forma de tratamento",
+            "type": "string"
+        },
+        "prs_FirstName": {
+            "description": "Primeiro Nome",
+            "type": "string"
+        },
+        "prs_SecondName": {
+            "description": "Nome do Meio",
+            "type": "string"
+        },
+        "prs_Birthdate": {
+            "description": "Data de Nascimento",
+            "type": "string"
+        },
+        "prs_Gender": {
+            "description": "Gênero",
+            "type": "string",
+            "enum": [
+                "Male",
+                "Female",
+                "Transgender/NonConforming",
+                "Unknown"
+            ],
+            "$comment": "(enum) 🚧 Opus in progressu 🚧 (enum)"
+        },
+        "prs_Nationality": {
+            "description": "Nacionalidade",
+            "type": "string"
+        },
+        "prs_Title": {
+            "description": "Designação",
+            "type": "string"
+        },
+        "prs_Email": {
+            "description": "Email",
+            "type": "string",
+            "format": "email"
+        },
+        "prs_HomePhone": {
+            "description": "Telefone Residencial",
+            "type": "string"
+        },
+        "prs_MobilePhone": {
+            "description": "Telefone celular",
+            "type": "string"
+        },
+        "prs_MailingCity": {
+            "description": "Cidade para correspondência",
+            "type": "string"
+        },
+        "prs_MailingCountry": {
+            "description": "País para correspondência",
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 2
+        },
+        "prs_MailingState": {
+            "description": "Estado/Província para correspondência",
+            "type": "string"
+        },
+        "prs_MailingStreet": {
+            "description": "Rua para correspondência",
+            "type": "string"
+        },
+        "prs_MailingPostalCode": {
+            "description": "Código Postal para correspondência",
+            "type": "string"
+        },
+        "vic_MethodOfRecruitment": {
+            "description": "Método de Recrutamento",
+            "type": "string",
+            "enum": [
+                "Internet (social media, online advertisement)",
+                "Educational Facility",
+                "Public Area",
+                "Shelter",
+                "Work",
+                "Unknown"
+            ],
+            "$comment": "(enum) 🚧 Opus in progressu 🚧 (enum)"
+        },
+        "vic_LocationOfRecruitment": {
+            "description": "Local de Recrutamento",
+            "type": "string"
+        },
+        "vic_MethodsOfControl": {
+            "description": "Métodos de Controle",
+            "type": "string",
+            "enum": [
+                "Physical threats",
+                "Threats of law enforcement",
+                "Threatens children/family",
+                "Debt bondage",
+                "False promises",
+                "Physical abuse",
+                "Sexual abuse",
+                "Takes earnings",
+                "Restricts financial access",
+                "Restricts medical care",
+                "Withholds necessities",
+                "Psychological abuse",
+                "Psychoactive substance",
+                "Excessive working hours",
+                "Withholds documents",
+                "Other"
+            ],
+            "$comment": "(enum) 🚧 Opus in progressu 🚧 (enum)"
+        },
+        "vic_TypeOfExploitation": {
+            "description": "Tipo de Exploração",
+            "type": "string",
+            "enum": [
+                "Forced labour",
+                "Sexual exploitation",
+                "Forced marriage",
+                "Forced military service",
+                "Organ removal",
+                "Forced begging",
+                "Illicit activities",
+                "Illegal adoption",
+                "Surrogacy",
+                "Other"
+            ],
+            "$comment": "(enum) 🚧 Opus in progressu 🚧 (enum)"
+        },
+        "vic_ForcedLabourIndustry": {
+            "description": "Indústria de Trabalho Forçado",
+            "type": "string",
+            "enum": [
+                "Agriculture, forestry and fishing",
+                "Mining and quarrying",
+                "Manufacturing",
+                "Electricity, gas, steam and air conditioning supply",
+                "Water supply; sewerage, waste management and remediation",
+                "Construction",
+                "Wholesale and retail trade; repair of motor vehicles and motorcycles",
+                "Transportation and storage",
+                "Accommodation and food service activities",
+                "Information and communication",
+                "Financial and insurance activities",
+                "Real estate activities",
+                "Professional, scientific and technical activities",
+                "Administrative and support service activities",
+                "Public administration and defence; compulsory social security",
+                "Education",
+                "Human health and social work activities",
+                "Arts, entertainment and recreation",
+                "Other service activities",
+                "Activities of households as employers; undifferentiated goods- and services- producing activities of households for own use",
+                "Activities of extraterritorial organizations and bodies"
+            ],
+            "$comment": "(enum) 🚧 Opus in progressu 🚧 (enum)"
+        },
+        "vic_TypeOfSexExploitation": {
+            "description": "Tipo de Exploração Sexual",
+            "type": "string"
+        },
+        "vic_LocationOfExploitation": {
+            "description": "Local da Exploração",
+            "type": "string"
+        },
+        "vic_Vulnerabilities": {
+            "description": "Vulnerabilidades",
+            "type": "string"
+        },
+        "vic_DetailsOfVulnerabilities": {
+            "description": "Detalhes das Vulnerabilidades",
+            "type": "string"
+        },
+        "cas_Status": {
+            "description": "Situação",
+            "type": "string"
+        },
+        "cas_ReferringOrganisation": {
+            "description": "Organização Encaminhadora",
+            "type": "string"
+        },
+        "cas_IncomingReferralDate": {
+            "description": "Data de entrada no Encaminhamento",
+            "type": "string"
+        },
+        "cas_ReferringPrimaryCaseWorker": {
+            "description": "Referente ao Responsável Primário do Caso",
+            "type": "string"
+        },
+        "cas_ReasonForIncomingReferral": {
+            "description": "Razão do Encaminhamento",
+            "type": "string"
+        },
+        "cas_IncomingReferralDetails": {
+            "description": "Detalhes de entrada do Encaminhamento",
+            "type": "string"
+        },
+        "cas_ReferredOrganisation": {
+            "description": "Organização Encaminhadora",
+            "type": "string"
+        },
+        "cas_ReferredPrimaryCaseWorker": {
+            "description": "Responsável pelo caso primário encaminhado",
+            "type": "string"
+        },
+        "cas_ReasonForOutgoingReferral": {
+            "description": "Razão para encaminhamento de saída",
+            "type": "string"
+        },
+        "cas_OutgoingReferralDate": {
+            "description": "Data de remessa de saída",
+            "type": "string"
+        },
+        "cas_OutgoingReferralDetails": {
+            "description": "Detalhes de referência de saída",
+            "type": "string"
+        },
+        "cas_ReasonForCaseClosure": {
+            "description": "Razão para Encerramento do Caso",
+            "type": "string"
+        }
+    }
+}

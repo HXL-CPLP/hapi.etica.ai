@@ -1,0 +1,123 @@
+{
+  "principale": [
+    {
+      "nomen": "<span >🇺🇳ONU🇺🇳</span>",
+      "iri": "#",
+      "descendens": [
+        {
+          "xdefallo": "/mul-Zyyy/api/UN/HDX/",
+          "nomen": "<span >HDX - Intercâmbio de Dados Humanitários</span>",
+          "iri": "/por-Latn/api/UN/<span >humanitarian-data-exchange</span>/"
+        },
+        {
+          "xdefallo": "/mul-Zyyy/api/UN/reliefweb/",
+          "nomen": "<span >ReliefWeb - Informando humanitários em todo o mundo</span>",
+          "iri": "/por-Latn/api/UN/reliefweb/"
+        },
+        {
+          "xdefallo": "/mul-Zyyy/api/UN/CODV2API/",
+          "nomen": "<span >COD API versão 2</span>",
+          "iri": "/por-Latn/api/UN/common-operational-datasets-api/"
+        },
+        {
+          "nomen": "<span lang=\"en\" dir=\"ltr\">UNSD SDG API</span>",
+          "debile": true
+        },
+        {
+          "nomen": "separator"
+        },
+        {
+          "xdefallo": "/mul-Zyyy/schemam/UN/HTCDS/",
+          "nomen": "<span >PDCTH: O Padrão de Dados de Casos de Tráfico Humano</span>",
+          "iri": "/por-Latn/esquema-de-dados/UN/PDCTH/"
+        },
+        {
+          "nomen": "<span lang=\"en\" dir=\"ltr\">UN M49</span>",
+          "debile": true
+        },
+        {
+          "nomen": "<span lang=\"en\" dir=\"ltr\">UN P</span>",
+          "debile": true
+        }
+      ]
+    },
+    {
+      "nomen": "<span >🌐001🌐</span>",
+      "iri": "#",
+      "descendens": [
+        {
+          "xdefallo": "/mul-Zyyy/api/XZ/HXL-Proxy/",
+          "nomen": "<span >HXL-Proxy - Proxy da Linguagem de Intercâmbio Humanitária</span>",
+          "iri": "/por-Latn/api/XZ/HXL-Proxy/"
+        },
+        {
+          "nomen": "<span lang=\"en\" dir=\"ltr\">Worldbank</span>",
+          "debile": true
+        },
+        {
+          "nomen": "separator"
+        },
+        {
+          "xdefallo": "/mul-Zyyy/schemam/XZ/ISO-639-3/",
+          "nomen": "<span >ISO 639-3</span>",
+          "iri": "/por-Latn/esquema-de-dados/XZ/ISO-639-3/"
+        },
+        {
+          "xdefallo": "/mul-Zyyy/schemam/XZ/ISO-15924/",
+          "nomen": "<span >ISO 15924</span>",
+          "iri": "/por-Latn/esquema-de-dados/XZ/ISO-15924/"
+        }
+      ]
+    },
+    {
+      "nomen": "<span >🇧🇷076🇧🇷</span>",
+      "iri": "#",
+      "descendens": [
+        {
+          "xdefallo": "/mul-Zyyy/api/BR/portais-ckan-brasil/",
+          "nomen": "<span >Portais CKAN de dados abertos no Brasil</span>",
+          "iri": "/por-Latn/api/BR/portais-ckan-brasil/"
+        },
+        {
+          "xdefallo": "/mul-Zyyy/api/BR/portais-arcgis-brasil/",
+          "nomen": "<span >Portais ArcGIS de dados abertos do Brasil</span>",
+          "iri": "/por-Latn/api/BR/portais-arcgis-brasil/"
+        },
+        {
+          "nomen": "separator"
+        },
+        {
+          "nomen": "<span lang=\"en\" dir=\"ltr\">IBGE</span>",
+          "debile": true
+        }
+      ]
+    },
+    {
+      "nomen": "💾🗣️💭 <!-- TODO: RtL -->",
+      "titulum": "<span >Memória de tradução</span>",
+      "iri": "#",
+      "descendens": [
+        {
+          "xdefallo": "/mul-Zyyy/tm/XZ/hapi-miniman/",
+          "nomen": "<span >Memória de tradução</span> : hapi-miniman.tm.hxl",
+          "iri": "/mul-Zyyy/tm/XZ/hapi-miniman/"
+        },
+        {
+          "xdefallo": "/mul-Zyyy/tm/XZ/hapi-api/",
+          "nomen": "<span >Memória de tradução</span> : hapi-api.tm.hxl",
+          "iri": "/mul-Zyyy/tm/XZ/hapi-api/"
+        },
+        {
+          "xdefallo": "/mul-Zyyy/tm/XZ/schemam/",
+          "nomen": "<span >Memória de tradução</span> : schemam.tm.hxl",
+          "iri": "/mul-Zyyy/tm/XZ/schemam/"
+        },
+        {
+          "xdefallo": "/mul-Zyyy/tm/XZ/commune/",
+          "nomen": "<span >Memória de tradução</span> : commune.tm.hxl",
+          "iri": "/mul-Zyyy/tm/XZ/commune/"
+        }
+      ]
+    }
+  ]
+}
